@@ -6,6 +6,7 @@ import Toybox.Lang;
 
 class BreathingView extends WatchUi.View {
     private var _mode;
+    var _startTime;
     private var _timer;
     private var _tickCount = 0;
     private var _circleRadiusPercent = 0.0;
@@ -19,7 +20,7 @@ class BreathingView extends WatchUi.View {
     function initialize(modeId) {
         View.initialize();
         _mode = modeId;
-
+        _startTime = System.getTimer(); // Засекаем время старта в миллисекундах
         // Настройка таймингов
         if (_mode == :box) {
             _inhale = 4; _hold = 4; _exhale = 4;

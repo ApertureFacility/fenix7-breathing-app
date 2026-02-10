@@ -8,13 +8,11 @@ class ModeMenuDelegate extends WatchUi.Menu2InputDelegate {
     }
 
     // In Menu2, the function name is onSelect, and it passes the MenuItem object
-    function onSelect(item) {
-        var id = item.getId(); // This gets the symbol like :box or :even
-
-        WatchUi.pushView(
-            new BreathingView(id), 
-            new BreathingViewDelegate(), 
-            WatchUi.SLIDE_LEFT
-        );
-    }
+// В ModeMenuDelegate.mc
+function onSelect(item) {
+    var id = item.getId();
+    var view = new BreathingView(id);
+    // Передаем созданный view в делегат, чтобы он мог забрать время старта
+    WatchUi.pushView(view, new BreathingViewDelegate(view), WatchUi.SLIDE_LEFT);
+}
 }
