@@ -3,28 +3,41 @@ import Toybox.Graphics;
 import Toybox.Timer;
 import Toybox.Attention;
 import Toybox.Lang;
+import Toybox.Sensor;
+import Toybox.System;
 
 class BreathingView extends WatchUi.View {
-    private var _mode;
+    // Публичные переменные для доступа из делегата
     var _startTime;
+    var _cycles = 0;
+    var _startHR = 0;
+    var _currentHR = 0;
+
+    // Приватные переменные логики
+    private var _mode;
     private var _timer;
     private var _tickCount = 0;
     private var _circleRadiusPercent = 0.0;
     private var _statusText = "Приготовьтесь";
     
     private var _inhale = 4;
-    private var _hold = 4;
+    private var _hold = 0;
     private var _exhale = 4;
-    private var _cycleTotal = 12;
+    private var _cycleTotal = 8;
+    private var _lastCycleCount = -1;
 
     function initialize(modeId) {
         View.initialize();
         _mode = modeId;
-        _startTime = System.getTimer(); // Засекаем время старта в миллисекундах
-        // Настройка таймингов
+        _startTime = System.getTimer();
+        
+        // Получаем начальный пульс
+        _startHR = getHeartRate();
+
+        // Настройка таймингов в зависимости от режима
         if (_mode == :box) {
             _inhale = 4; _hold = 4; _exhale = 4;
-            _cycleTotal = 16; // 4 фазы по 4 секунды (вдох-задержка-выдох-задержка)
+            _cycleTotal = 16; // Вдох(4)-Задержка(4)-Выдох(4)-Задержка(4)
         } else if (_mode == :fourSevenEight) {
             _inhale = 4; _hold = 7; _exhale = 8;
             _cycleTotal = 19;
@@ -37,7 +50,7 @@ class BreathingView extends WatchUi.View {
     }
 
     function onShow() {
-        // 100 мс для плавности
+        // Запуск 100мс таймера для плавной анимации круга
         _timer.start(method(:onTimerTick), 100, true);
     }
 
@@ -45,15 +58,31 @@ class BreathingView extends WatchUi.View {
         _timer.stop();
     }
 
+    // Вспомогательная функция получения пульса
+    function getHeartRate() {
+        var info = Sensor.getInfo();
+        if (info has :heartRate && info.heartRate != null) {
+            return info.heartRate;
+        }
+        return 0;
+    }
+
     function onTimerTick() as Void {
         _tickCount++;
         
-        // Считаем прогресс внутри цикла (в секундах)
         var totalTicks = _cycleTotal * 10;
         var currentTickInCycle = _tickCount % totalTicks;
         var second = currentTickInCycle / 10.0;
 
-        // ЛОГИКА ФАЗ
+        // Обновляем текущий пульс и счетчик циклов
+        _currentHR = getHeartRate();
+        var currentFullCycles = (_tickCount / totalTicks).toNumber();
+        if (currentFullCycles > _lastCycleCount) {
+            _cycles = currentFullCycles;
+            _lastCycleCount = currentFullCycles;
+        }
+
+        // ЛОГИКА ФАЗ И АНИМАЦИИ
         if (second < _inhale) {
             _statusText = "Вдох";
             _circleRadiusPercent = second / _inhale;
@@ -67,7 +96,7 @@ class BreathingView extends WatchUi.View {
             _statusText = "Выдох";
             var exhaleTime = second - (_inhale + _hold);
             _circleRadiusPercent = 1.0 - (exhaleTime / _exhale);
-            // Вибрация в начале выдоха (когда вошли в эту фазу)
+            // Вибрация в начале выдоха
             if (currentTickInCycle == ((_inhale + _hold) * 10).toLong()) { triggerVibe(); }
         } 
         else {
@@ -81,10 +110,10 @@ class BreathingView extends WatchUi.View {
     function triggerVibe() as Void {
         if (Attention has :vibrate) {
             try {
-                var vibeProfile = [new Attention.VibeProfile(50, 200)] as Array<Attention.VibeProfile>;
+                var vibeProfile = [new Attention.VibeProfile(50, 150)] as Array<Attention.VibeProfile>;
                 Attention.vibrate(vibeProfile);
             } catch (e) {
-                // Игнорируем ошибки вибрации, если что-то пошло не так
+                // Ошибка вибрации не должна вешать приложение
             }
         }
     }
@@ -93,11 +122,11 @@ class BreathingView extends WatchUi.View {
         var w = dc.getWidth();
         var h = dc.getHeight();
         
-        // Очистка экрана
+        // Фон
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
 
-        // Цвет круга
+        // Выбор цвета круга
         if (_statusText.equals("Вдох")) {
             dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
         } else if (_statusText.equals("Выдох")) {
@@ -106,16 +135,22 @@ class BreathingView extends WatchUi.View {
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
         }
 
-        // Рисуем круг
+        // Отрисовка пульсирующего круга
         var maxRadius = (w < h ? w : h) / 2.5;
-        var minRadius = 20;
+        var minRadius = 25;
         var currentRadius = minRadius + (maxRadius - minRadius) * _circleRadiusPercent;
 
-        dc.setPenWidth(10);
+        dc.setPenWidth(12);
         dc.drawCircle(w / 2, h / 2, currentRadius);
 
         // Текст фазы
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(w / 2, h / 2 - 15, Graphics.FONT_MEDIUM, _statusText, Graphics.TEXT_JUSTIFY_CENTER);
+
+        // Текущий пульс внизу (мини-индикатор)
+        if (_currentHR > 0) {
+            dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(w / 2, h - 50, Graphics.FONT_XTINY, "HR: " + _currentHR, Graphics.TEXT_JUSTIFY_CENTER);
+        }
     }
 }

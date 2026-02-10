@@ -32,55 +32,91 @@ C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_Breathi
     }
     [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc"; @line = 13; @symbol_functiondef = [onBack,13,13,19]; ]
     function onBack() {
-C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_24_4_start:
-[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 14 8 ]
-        [ "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_24_4_start" "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_24_4_stop" ]
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 15 8 ]
+        [ "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_start" "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_stop" ]
         %durationMs.1 = local;
-        symbol [ durationMs %durationMs.1 14 12 22 ];
-        symbol [ System %tmp.1 14 25 31 ];
+        symbol [ durationMs %durationMs.1 15 12 22 ];
+        symbol [ System %tmp.1 15 25 31 ];
         %tmp.1 = getm $.Toybox.System;
-        symbol [ getTimer %tmp.2 14 32 40 ];
+        symbol [ getTimer %tmp.2 15 32 40 ];
         %tmp.2 = getv function %tmp.1 :getTimer;
         %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ _view %tmp.5 14 45 50 ];
+        symbol [ _view %tmp.5 15 45 50 ];
         %tmp.5 = getv ? :_view;
-        symbol [ _startTime %tmp.6 14 51 61 ];
+        symbol [ _startTime %tmp.6 15 51 61 ];
         %tmp.6 = getv %tmp.5 :_startTime;
         %tmp.7 = sub %tmp.3 %tmp.6;
         lputv %durationMs.1 %tmp.7;
-        symbol [ durationMs %durationMs.1 14 12 22 ];
-[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 15 8 ]
-        [ "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_24_4_start" "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_24_4_stop" ]
+        symbol [ durationMs %durationMs.1 15 12 22 ];
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 16 8 ]
+        [ "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_start" "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_stop" ]
         %durationSec.2 = local;
-        symbol [ durationSec %durationSec.2 15 12 23 ];
+        symbol [ durationSec %durationSec.2 16 12 23 ];
         %tmp.8 = lgetv %durationMs.1;
-        symbol [ durationMs %tmp.8 15 26 36 ];
+        symbol [ durationMs %tmp.8 16 26 36 ];
         %tmp.9 = 1000;
         %tmp.10 = div %tmp.8 %tmp.9;
         lputv %durationSec.2 %tmp.10;
-        symbol [ durationSec %durationSec.2 15 12 23 ];
-[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 18 8 ]
-        symbol [ WatchUi %tmp.11 18 8 15 ];
-        %tmp.11 = getm $.Toybox.WatchUi;
-        symbol [ switchToView %tmp.12 18 16 28 ];
-        %tmp.12 = getv function %tmp.11 :switchToView;
-        symbol [ SummaryView %tmp.16 19 16 27 ];
-        %tmp.16 = getv ? :SummaryView;
-        %tmp.17 = lgetv %durationSec.2;
-        symbol [ durationSec %tmp.17 19 28 39 ];
-        %tmp.13 = newc %tmp.16 (%tmp.17);
-        symbol [ SummaryDelegate %tmp.21 20 16 31 ];
-        %tmp.21 = getv ? :SummaryDelegate;
-        %tmp.18 = newc %tmp.21 ();
-        symbol [ WatchUi %tmp.22 21 12 19 ];
-        %tmp.22 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_DOWN %tmp.23 21 20 30 ];
-        %tmp.23 = getv %tmp.22 :SLIDE_DOWN;
-        invoke %tmp.11 %tmp.12(%tmp.13, %tmp.18, %tmp.23);
-[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 23 8 ]
-        %tmp.24 = true;
-        ret %tmp.24;
-C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_24_4_stop:
+        symbol [ durationSec %durationSec.2 16 12 23 ];
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 19 8 ]
+        [ "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_start" "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_stop" ]
+        %cyclesCompleted.3 = local;
+        symbol [ cyclesCompleted %cyclesCompleted.3 19 12 27 ];
+        symbol [ _view %tmp.12 19 30 35 ];
+        %tmp.12 = getv ? :_view;
+        symbol [ _cycles %tmp.13 19 36 43 ];
+        %tmp.13 = getv %tmp.12 :_cycles;
+        lputv %cyclesCompleted.3 %tmp.13;
+        symbol [ cyclesCompleted %cyclesCompleted.3 19 12 27 ];
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 20 8 ]
+        [ "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_start" "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_stop" ]
+        %startHR.4 = local;
+        symbol [ startHR %startHR.4 20 12 19 ];
+        symbol [ _view %tmp.15 20 22 27 ];
+        %tmp.15 = getv ? :_view;
+        symbol [ _startHR %tmp.16 20 28 36 ];
+        %tmp.16 = getv %tmp.15 :_startHR;
+        lputv %startHR.4 %tmp.16;
+        symbol [ startHR %startHR.4 20 12 19 ];
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 21 8 ]
+        [ "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_start" "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_stop" ]
+        %endHR.5 = local;
+        symbol [ endHR %endHR.5 21 12 17 ];
+        symbol [ _view %tmp.18 21 20 25 ];
+        %tmp.18 = getv ? :_view;
+        symbol [ _currentHR %tmp.19 21 26 36 ];
+        %tmp.19 = getv %tmp.18 :_currentHR;
+        lputv %endHR.5 %tmp.19;
+        symbol [ endHR %endHR.5 21 12 17 ];
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 24 8 ]
+        symbol [ WatchUi %tmp.20 24 8 15 ];
+        %tmp.20 = getm $.Toybox.WatchUi;
+        symbol [ switchToView %tmp.21 24 16 28 ];
+        %tmp.21 = getv function %tmp.20 :switchToView;
+        symbol [ SummaryView %tmp.25 25 16 27 ];
+        %tmp.25 = getv ? :SummaryView;
+        %tmp.26 = lgetv %durationSec.2;
+        symbol [ durationSec %tmp.26 25 28 39 ];
+        %tmp.27 = lgetv %cyclesCompleted.3;
+        symbol [ cyclesCompleted %tmp.27 25 41 56 ];
+        %tmp.28 = lgetv %startHR.4;
+        symbol [ startHR %tmp.28 25 58 65 ];
+        %tmp.29 = lgetv %endHR.5;
+        symbol [ endHR %tmp.29 25 67 72 ];
+        %tmp.22 = newc %tmp.25 (%tmp.26, %tmp.27, %tmp.28, %tmp.29);
+        symbol [ SummaryDelegate %tmp.33 26 16 31 ];
+        %tmp.33 = getv ? :SummaryDelegate;
+        %tmp.30 = newc %tmp.33 ();
+        symbol [ WatchUi %tmp.34 27 12 19 ];
+        %tmp.34 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_DOWN %tmp.35 27 20 30 ];
+        %tmp.35 = getv %tmp.34 :SLIDE_DOWN;
+        invoke %tmp.20 %tmp.21(%tmp.22, %tmp.30, %tmp.35);
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc" 30 8 ]
+        %tmp.36 = true;
+        ret %tmp.36;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingViewDelegate_mc_13_22_31_4_stop:
     }
 }
 [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingViewDelegate.mc"; @line = 1; ]

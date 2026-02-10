@@ -11,15 +11,22 @@ class BreathingViewDelegate extends WatchUi.BehaviorDelegate {
 
     // Вызывается при нажатии кнопки Back
     function onBack() {
+        // 1. Считаем длительность
         var durationMs = System.getTimer() - _view._startTime;
         var durationSec = durationMs / 1000;
 
-        // Переходим на экран итогов
+        
+        var cyclesCompleted = _view._cycles;
+        var startHR = _view._startHR;
+        var endHR = _view._currentHR;
+
+        // 3. Переходим на экран итогов, передавая ВСЕ 4 аргумента
         WatchUi.switchToView(
-            new SummaryView(durationSec), 
+            new SummaryView(durationSec, cyclesCompleted, startHR, endHR), 
             new SummaryDelegate(), 
             WatchUi.SLIDE_DOWN
         );
-        return true; // Сообщаем системе, что мы обработали нажатие
+        
+        return true; 
     }
 }
