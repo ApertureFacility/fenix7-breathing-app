@@ -18,6 +18,7 @@ class BreathingView extends WatchUi.View {
     var _currentHR = 0;
     var _session; 
     var _stressField;
+    var _currentHRV = 0;
 
     // Параметры логики
     private var _mode;
@@ -32,30 +33,31 @@ class BreathingView extends WatchUi.View {
     private var _cycleTotal = 8;
     private var _lastCycleCount = -1;
 
-function initialize(modeId) {
-    View.initialize();
-    _mode = modeId;
+    function initialize(modeId) {
+        View.initialize();
+        _mode = modeId;
 
-    // Определяем основной спорт
-    var sportType = Activity.SPORT_GENERIC; 
-    if (Activity has :SPORT_MEDITATION) {
-        sportType = Activity.SPORT_MEDITATION; // Значение 67
-    }
+        var sportType = Activity.SPORT_GENERIC; 
+        if (Activity has :SPORT_MEDITATION) {
+            sportType = Activity.SPORT_MEDITATION; 
+        }
 
-    // Определяем подтип (Дыхание)
-    var subSportType = Activity.SUB_SPORT_GENERIC;
-    if (Activity has :SUB_SPORT_BREATHING) {
-        subSportType = Activity.SUB_SPORT_BREATHING; // Значение 62
-    }
+        var subSportType = Activity.SUB_SPORT_GENERIC;
+        if (Activity has :SUB_SPORT_BREATHING) {
+            subSportType = Activity.SUB_SPORT_BREATHING; 
+        }
 
-    // Создаем сессию
-    _session = ActivityRecording.createSession({
-        :name => "Дыхание",
-        :sport => sportType,
-        :subSport => subSportType
-    });
-        // Создаем поле аналитики
+        _session = ActivityRecording.createSession({
+            :name => "Дыхание",
+            :sport => sportType,
+            :subSport => subSportType
+        });
+
         if (_session != null) {
+            if (_session has :setRecordRr) {
+                _session.setRecordRr(true);
+            }
+
             _stressField = _session.createField(
                 "calmness_score", 
                 0, 
@@ -64,7 +66,6 @@ function initialize(modeId) {
             );
         }
 
-        // 2. Настройка таймингов
         if (_mode == :box) {
             _inhale = 4; _hold = 4; _exhale = 4; _cycleTotal = 16;
         } else if (_mode == :free) {
@@ -78,20 +79,28 @@ function initialize(modeId) {
         _timer = new Timer.Timer();
     }
 
-    // Включаем таймер отрисовки сразу, но логику упражнения — только после старта
     function onShow() {
         _timer.start(method(:onTimerTick), 100, true);
+    }
+
+    function updateSensorData() {
+        var info = Sensor.getInfo();
+        if (info has :heartRate && info.heartRate != null) {
+            _currentHR = info.heartRate;
+        }
+        if (info has :heartRateVariability && info.heartRateVariability != null) {
+            _currentHRV = info.heartRateVariability;
+        }
     }
 
     function onHide() {
         _timer.stop();
     }
 
-    // Метод для старта упражнения по кнопке
     function startExercise() {
         if (!_isActive) {
             _isActive = true;
-            _startHR = getHeartRate(); // Фиксируем начальный пульс
+            _startHR = getHeartRate();
             if (_session != null) {
                 _session.start();
             }
@@ -107,16 +116,14 @@ function initialize(modeId) {
     }
 
     function onTimerTick() as Void {
-        _currentHR = getHeartRate();
+        updateSensorData();
         
-        // Если упражнение еще не запущено, просто обновляем экран и ждем
         if (!_isActive) { 
-        return; 
-    }
+            return; 
+        }
 
         _tickCount++;
 
-        // Аналитика в FIT файл
         if (_session != null && _session.isRecording() && _currentHR > 0 && _stressField != null) {
             var calmness = 100 - (_currentHR - 50); 
             if (calmness > 100) { calmness = 100; }
@@ -173,7 +180,6 @@ function initialize(modeId) {
         dc.clear();
 
         if (!_isActive) {
-            // Экран ожидания старта
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
             dc.drawText(w / 2, h / 2 - 20, Graphics.FONT_MEDIUM, "ГОТОВЫ?", Graphics.TEXT_JUSTIFY_CENTER);
             dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
@@ -181,7 +187,6 @@ function initialize(modeId) {
             return;
         }
 
-        // Отрисовка активного упражнения
         if (_mode == :free) {
             dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
             dc.setPenWidth(2);
@@ -191,19 +196,15 @@ function initialize(modeId) {
             var timeStr = (totalSec / 60).toNumber() + ":" + (totalSec % 60).format("%02d");
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
             dc.drawText(w / 2, h / 2 - 20, Graphics.FONT_LARGE, timeStr, Graphics.TEXT_JUSTIFY_CENTER);
-            
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
             dc.drawText(w / 2, h / 2 + 30, Graphics.FONT_XTINY, "СВОБОДНЫЙ ТЕМП", Graphics.TEXT_JUSTIFY_CENTER);
         } else {
             var color = _statusText.equals("Вдох") ? Graphics.COLOR_GREEN : (_statusText.equals("Выдох") ? Graphics.COLOR_RED : Graphics.COLOR_BLUE);
             dc.setColor(color, Graphics.COLOR_TRANSPARENT);
-
             var maxRadius = (w < h ? w : h) / 2.5;
             var currentRadius = 25 + (maxRadius - 25) * _circleRadiusPercent;
-
             dc.setPenWidth(12);
             dc.drawCircle(w / 2, h / 2, currentRadius);
-
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
             dc.drawText(w / 2, h / 2 - 15, Graphics.FONT_MEDIUM, _statusText, Graphics.TEXT_JUSTIFY_CENTER);
         }
@@ -214,37 +215,34 @@ function initialize(modeId) {
         }
     }
 
-    // Метод завершения (вызывать из делегата)
- // Внутри класса BreathingView
-function exitToSummary(shouldSave) {
-    // 1. ПЕРВЫМ ДЕЛОМ останавливаем всё, чтобы фоновые процессы не мешали
-    _isActive = false;
-    if (_timer != null) {
-        _timer.stop();
-    }
-
-    if (_session != null && _session.isRecording()) {
-        _session.stop();
-        
-        if (shouldSave) {
-            _session.save();
-            _session = null;
-            
-            var duration = _tickCount / 10;
-            var endHR = getHeartRate();
-            
-            // Используем switchToView, чтобы ПОЛНОСТЬЮ заменить экран дыхания на итоги
-            WatchUi.switchToView(new SummaryView(duration, _cycles, _startHR, endHR), new SummaryDelegate(), WatchUi.SLIDE_UP);
-        } else {
-            _session.discard();
-            _session = null;
-            
-            // Если отмена — закрываем меню и возвращаемся назад
-            WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); // Закрыть меню паузы
-            WatchUi.popView(WatchUi.SLIDE_DOWN);      // Вернуться в выбор режима
+    function exitToSummary(shouldSave) {
+        _isActive = false;
+        if (_timer != null) {
+            _timer.stop();
         }
-    } else {
-        WatchUi.popView(WatchUi.SLIDE_DOWN);
+
+        if (_session != null && _session.isRecording()) {
+            _session.stop();
+            if (shouldSave) {
+                _session.save();
+                var duration = (_tickCount / 10).toNumber();
+                var endHR = getHeartRate();
+                var endHRV = _currentHRV; 
+                _session = null;
+
+                WatchUi.switchToView(
+                    new SummaryView(duration, _cycles, _startHR, endHR, endHRV), 
+                    new SummaryDelegate(), 
+                    WatchUi.SLIDE_UP
+                );
+            } else {
+                _session.discard();
+                _session = null;
+                WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); 
+                WatchUi.popView(WatchUi.SLIDE_DOWN);
+            }
+        } else {
+            WatchUi.popView(WatchUi.SLIDE_DOWN);
+        }
     }
-}
-}
+} // <--- Вот эта скобка закрывает КЛАСС. После неё ничего быть не должно.

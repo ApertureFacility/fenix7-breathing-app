@@ -3,14 +3,17 @@ import Toybox.Graphics;
 import Toybox.Lang;
 
 class SummaryView extends WatchUi.View {
-    private var _duration, _cycles, _startHR, _endHR;
+    // 1. Добавили _hrv в список переменных класса
+    private var _duration, _cycles, _startHR, _endHR, _hrv;
 
-    function initialize(duration, cycles, startHR, endHR) {
+    // 2. Добавили hrv в аргументы (теперь их 5)
+    function initialize(duration, cycles, startHR, endHR, hrv) {
         View.initialize();
         _duration = duration;
         _cycles = cycles;
         _startHR = startHR;
         _endHR = endHR;
+        _hrv = hrv; // Теперь ошибка "Undefined symbol" исчезнет
     }
 
     function calculateEffectiveness() {
@@ -27,51 +30,50 @@ class SummaryView extends WatchUi.View {
     function onUpdate(dc) {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
-        
-        var w = dc.getWidth();
-        var h = dc.getHeight();
-
-        // 1. ВЕРХ: Заголовок и Результат
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(w / 2, h * 0.15, Graphics.FONT_XTINY, "ИТОГИ СЕССИИ", Graphics.TEXT_JUSTIFY_CENTER);
 
-        var resultText = calculateEffectiveness();
-        var resultColor = (_startHR > _endHR) ? Graphics.COLOR_GREEN : Graphics.COLOR_YELLOW;
-        dc.setColor(resultColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(w / 2, h * 0.25, Graphics.FONT_SMALL, resultText, Graphics.TEXT_JUSTIFY_CENTER);
+        var h = dc.getHeight();
+        var w = dc.getWidth();
 
-        // 2. ЦЕНТР: Статистика
-        drawStat(dc, w/2 - 55, h/2 - 20, "ВРЕМЯ", formatTime(_duration));
-        drawStat(dc, w/2 + 55, h/2 - 20, "ЦИКЛЫ", _cycles.toString());
+        // Заголовок
+        dc.drawText(w/2, h*0.15, Graphics.FONT_TINY, "ИТОГИ", Graphics.TEXT_JUSTIFY_CENTER);
         
-        // Линия-разделитель (чуть выше, чем была)
-        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawLine(w * 0.25, h/2 + 30, w * 0.75, h/2 + 30);
+        // Эффективность (текстом)
+        dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(w/2, h*0.28, Graphics.FONT_XTINY, calculateEffectiveness(), Graphics.TEXT_JUSTIFY_CENTER);
 
-        // 3. НИЗ: Шкала пульса
-        // Используем h * 0.78 чтобы опустить всю конструкцию ниже
-        drawHRScale(dc, w/2, h * 0.78, _startHR, _endHR);
+        // Шкала пульса (визуальная)
+        drawHRScale(dc, w/2, h*0.5, _startHR, _endHR);
+
+        // Статистика внизу
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        
+        // Время и Циклы
+        var timeStr = formatTime(_duration);
+        drawStat(dc, w*0.3, h*0.7, "ВРЕМЯ", timeStr);
+        drawStat(dc, w*0.7, h*0.7, "ЦИКЛЫ", _cycles.toString());
+        
+        // Вывод HRV (Вариабельность)
+        var hrvValue = (_hrv != null && _hrv > 0) ? _hrv.toString() + " ms" : "--";
+        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(w/2, h*0.88, Graphics.FONT_XTINY, "HRV: " + hrvValue, Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     function drawHRScale(dc, x, y, start, end) {
-        var barWidth = 120;
+        var barWidth = 140;
         
-        // Подпись: теперь она выше линии на 25 пикселей (хороший отступ)
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(x, y - 25, Graphics.FONT_XTINY, "PULSE: START > END", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(x, y - 35, Graphics.FONT_XTINY, "PULSE: START > END", Graphics.TEXT_JUSTIFY_CENTER);
 
-        // Базовая линия
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.setPenWidth(3);
         dc.drawLine(x - barWidth/2, y, x + barWidth/2, y);
 
-        // Начальный пульс (белая точка)
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(x - barWidth/2, y, 5);
         dc.drawText(x - barWidth/2, y + 10, Graphics.FONT_XTINY, start.toString(), Graphics.TEXT_JUSTIFY_CENTER);
 
-        // Конечный пульс (цветная точка)
-        var endColor = (start > end) ? Graphics.COLOR_GREEN : Graphics.COLOR_RED;
+        var endColor = (start > end) ? Graphics.COLOR_GREEN : (start < end ? Graphics.COLOR_RED : Graphics.COLOR_WHITE);
         dc.setColor(endColor, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(x + barWidth/2, y, 7);
         dc.drawText(x + barWidth/2, y + 10, Graphics.FONT_XTINY, end.toString(), Graphics.TEXT_JUSTIFY_CENTER);
@@ -81,7 +83,7 @@ class SummaryView extends WatchUi.View {
         dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawText(x, y, Graphics.FONT_XTINY, label, Graphics.TEXT_JUSTIFY_CENTER);
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(x, y + 22, Graphics.FONT_SMALL, value, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(x, y + 20, Graphics.FONT_SMALL, value, Graphics.TEXT_JUSTIFY_CENTER);
     }
     
     function formatTime(seconds) {
