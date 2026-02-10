@@ -32,22 +32,28 @@ class BreathingView extends WatchUi.View {
     private var _cycleTotal = 8;
     private var _lastCycleCount = -1;
 
-    function initialize(modeId) {
-        View.initialize();
-        _mode = modeId;
-        
-        // 1. Подготовка сессии (без запуска)
-        var subSportType = 62; 
-        if (Activity has :SUB_SPORT_BREATHWORK) {
-            subSportType = Activity.SUB_SPORT_BREATHWORK;
-        }
+function initialize(modeId) {
+    View.initialize();
+    _mode = modeId;
 
-        _session = ActivityRecording.createSession({
-            :name => "Breathe",
-            :sport => Activity.SPORT_GENERIC,
-            :subSport => subSportType
-        });
+    // Определяем основной спорт
+    var sportType = Activity.SPORT_GENERIC; 
+    if (Activity has :SPORT_MEDITATION) {
+        sportType = Activity.SPORT_MEDITATION; // Значение 67
+    }
 
+    // Определяем подтип (Дыхание)
+    var subSportType = Activity.SUB_SPORT_GENERIC;
+    if (Activity has :SUB_SPORT_BREATHING) {
+        subSportType = Activity.SUB_SPORT_BREATHING; // Значение 62
+    }
+
+    // Создаем сессию
+    _session = ActivityRecording.createSession({
+        :name => "Дыхание",
+        :sport => sportType,
+        :subSport => subSportType
+    });
         // Создаем поле аналитики
         if (_session != null) {
             _stressField = _session.createField(
@@ -104,10 +110,9 @@ class BreathingView extends WatchUi.View {
         _currentHR = getHeartRate();
         
         // Если упражнение еще не запущено, просто обновляем экран и ждем
-        if (!_isActive) {
-            WatchUi.requestUpdate();
-            return;
-        }
+        if (!_isActive) { 
+        return; 
+    }
 
         _tickCount++;
 
@@ -210,14 +215,36 @@ class BreathingView extends WatchUi.View {
     }
 
     // Метод завершения (вызывать из делегата)
-    function exitToSummary() {
-        if (_session != null && _session.isRecording()) {
-            _session.stop();
+ // Внутри класса BreathingView
+function exitToSummary(shouldSave) {
+    // 1. ПЕРВЫМ ДЕЛОМ останавливаем всё, чтобы фоновые процессы не мешали
+    _isActive = false;
+    if (_timer != null) {
+        _timer.stop();
+    }
+
+    if (_session != null && _session.isRecording()) {
+        _session.stop();
+        
+        if (shouldSave) {
             _session.save();
             _session = null;
+            
+            var duration = _tickCount / 10;
+            var endHR = getHeartRate();
+            
+            // Используем switchToView, чтобы ПОЛНОСТЬЮ заменить экран дыхания на итоги
+            WatchUi.switchToView(new SummaryView(duration, _cycles, _startHR, endHR), new SummaryDelegate(), WatchUi.SLIDE_UP);
+        } else {
+            _session.discard();
+            _session = null;
+            
+            // Если отмена — закрываем меню и возвращаемся назад
+            WatchUi.popView(WatchUi.SLIDE_IMMEDIATE); // Закрыть меню паузы
+            WatchUi.popView(WatchUi.SLIDE_DOWN);      // Вернуться в выбор режима
         }
-        var duration = _tickCount / 10;
-        var endHR = getHeartRate();
-        WatchUi.switchToView(new SummaryView(duration, _cycles, _startHR, endHR), new SummaryDelegate(), WatchUi.SLIDE_UP);
+    } else {
+        WatchUi.popView(WatchUi.SLIDE_DOWN);
     }
+}
 }
