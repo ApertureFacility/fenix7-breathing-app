@@ -20,7 +20,7 @@ C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMen
         %tmp.4 = newd 1;
         %tmp.6 = const :title;
         symbol [ title %tmp.6 6 27 32 const ];
-        %tmp.7 = "Режим дыхания";
+        %tmp.7 = "Р РµР¶РёРј РґС‹С…Р°РЅРёСЏ";
         %tmp.8 = dup %tmp.4;
         %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
         invoke %tmp.2 %tmp.3(%tmp.9);
@@ -32,7 +32,7 @@ C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMen
         %tmp.14 = getm $.Toybox.WatchUi;
         symbol [ MenuItem %tmp.15 9 28 36 ];
         %tmp.15 = getv function ? %tmp.14 :MenuItem;
-        %tmp.16 = "Равномерное";
+        %tmp.16 = "Р Р°РІРЅРѕРјРµСЂРЅРѕРµ";
         %tmp.17 = null;
         %tmp.19 = const :even;
         symbol [ even %tmp.19 9 59 63 const ];
