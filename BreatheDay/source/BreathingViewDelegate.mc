@@ -9,35 +9,26 @@ class BreathingViewDelegate extends WatchUi.BehaviorDelegate {
         _view = view;
     }
 
-    // Обработка кнопки START / STOP (и касания экрана)
+    // Кнопка START (Select)
     function onSelect() {
-        exitToSummary();
+        if (!_view._isActive) {
+            _view.startExercise();
+        } else {
+            // Вызываем метод перехода, который мы написали внутри View
+            _view.exitToSummary();
+        }
         return true;
     }
 
-    // Если хотите оставить возможность выйти и по кнопке BACK, оставьте этот метод.
-    // Если хотите, чтобы BACK ничего не делала во время упражнения — удалите его.
+    // Кнопка BACK
     function onBack() {
-        exitToSummary();
+        // Если упражнение активно — останавливаем и идем в итоги
+        if (_view._isActive) {
+            _view.exitToSummary();
+        } else {
+            // Если еще не начали — просто выходим в меню
+            WatchUi.popView(WatchUi.SLIDE_DOWN);
+        }
         return true;
     }
-
-    // Вынесли общую логику перехода в отдельную функцию
-  function exitToSummary() {
-    // Останавливаем и сохраняем активность в FIT-файл
-    _view.stopAndSaveSession();
-
-    var durationMs = System.getTimer() - _view._startTime;
-    var durationSec = durationMs / 1000;
-
-    var cyclesCompleted = _view._cycles;
-    var startHR = _view._startHR;
-    var endHR = _view._currentHR;
-
-    WatchUi.switchToView(
-        new SummaryView(durationSec, cyclesCompleted, startHR, endHR), 
-        new SummaryDelegate(), 
-        WatchUi.SLIDE_DOWN
-    );
-}
 }

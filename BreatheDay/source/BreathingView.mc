@@ -7,16 +7,19 @@ import Toybox.Sensor;
 import Toybox.System;
 import Toybox.ActivityRecording;
 import Toybox.Activity;
+import Toybox.FitContributor;
 
 class BreathingView extends WatchUi.View {
-    // Публичные переменные для доступа из делегата
+    // Переменные состояния
+    var _isActive = false;
     var _startTime;
     var _cycles = 0;
     var _startHR = 0;
     var _currentHR = 0;
-    var _session; // Переменная для записи сессии
+    var _session; 
     var _stressField;
-    // Приватные переменные логики
+
+    // Параметры логики
     private var _mode;
     private var _timer;
     private var _tickCount = 0;
@@ -32,53 +35,44 @@ class BreathingView extends WatchUi.View {
     function initialize(modeId) {
         View.initialize();
         _mode = modeId;
-        _startTime = System.getTimer();
-        // Создаем кастомное поле "Уровень спокойствия" (0-100)
-   
-        // Получаем начальный пульс
-        _startHR = getHeartRate();
+        
+        // 1. Подготовка сессии (без запуска)
+        var subSportType = 62; 
+        if (Activity has :SUB_SPORT_BREATHWORK) {
+            subSportType = Activity.SUB_SPORT_BREATHWORK;
+        }
 
-var subSportType = 62; 
-if (Activity has :SUB_SPORT_BREATHWORK) {
-    subSportType = Activity.SUB_SPORT_BREATHWORK;
-}
+        _session = ActivityRecording.createSession({
+            :name => "Breathe",
+            :sport => Activity.SPORT_GENERIC,
+            :subSport => subSportType
+        });
 
-_session = ActivityRecording.createSession({
-    :name => "Breathe",
-    :sport => Activity.SPORT_GENERIC,
-    :subSport => subSportType
-});
-
-if (_session != null) {
-    _session.start();
-}
-if (_session != null) {
+        // Создаем поле аналитики
+        if (_session != null) {
             _stressField = _session.createField(
                 "calmness_score", 
                 0, 
                 FitContributor.DATA_TYPE_UINT8, 
                 { :mesgType => FitContributor.MESG_TYPE_RECORD, :units => "%" }
             );
-            _session.start();
         }
-        // Настройка таймингов
+
+        // 2. Настройка таймингов
         if (_mode == :box) {
-            _inhale = 4; _hold = 4; _exhale = 4;
-            _cycleTotal = 16;
+            _inhale = 4; _hold = 4; _exhale = 4; _cycleTotal = 16;
         } else if (_mode == :free) {
-            _inhale = 0; _hold = 0; _exhale = 0;
-            _cycleTotal = 1;
+            _inhale = 0; _hold = 0; _exhale = 0; _cycleTotal = 1;
         } else if (_mode == :fourSevenEight) {
-            _inhale = 4; _hold = 7; _exhale = 8;
-            _cycleTotal = 19;
+            _inhale = 4; _hold = 7; _exhale = 8; _cycleTotal = 19;
         } else {
-            _inhale = 5; _hold = 0; _exhale = 5;
-            _cycleTotal = 10;
+            _inhale = 5; _hold = 0; _exhale = 5; _cycleTotal = 10;
         }
         
         _timer = new Timer.Timer();
     }
 
+    // Включаем таймер отрисовки сразу, но логику упражнения — только после старта
     function onShow() {
         _timer.start(method(:onTimerTick), 100, true);
     }
@@ -87,16 +81,17 @@ if (_session != null) {
         _timer.stop();
     }
 
-    // Сохранение сессии
-    function stopAndSaveSession() {
-        if (_session != null && _session.isRecording()) {
-            _session.stop();
-            _session.save();
-            _session = null;
+    // Метод для старта упражнения по кнопке
+    function startExercise() {
+        if (!_isActive) {
+            _isActive = true;
+            _startHR = getHeartRate(); // Фиксируем начальный пульс
+            if (_session != null) {
+                _session.start();
+            }
         }
-    } // Скобка была пропущена здесь
+    }
 
-    // Вспомогательная функция получения пульса
     function getHeartRate() {
         var info = Sensor.getInfo();
         if (info has :heartRate && info.heartRate != null) {
@@ -106,22 +101,28 @@ if (_session != null) {
     }
 
     function onTimerTick() as Void {
-        _tickCount++;
         _currentHR = getHeartRate();
-// ОБЩАЯ АНАЛИТИКА (работает для всех режимов)
+        
+        // Если упражнение еще не запущено, просто обновляем экран и ждем
+        if (!_isActive) {
+            WatchUi.requestUpdate();
+            return;
+        }
+
+        _tickCount++;
+
+        // Аналитика в FIT файл
         if (_session != null && _session.isRecording() && _currentHR > 0 && _stressField != null) {
             var calmness = 100 - (_currentHR - 50); 
             if (calmness > 100) { calmness = 100; }
             if (calmness < 0) { calmness = 0; }
             _stressField.setData(calmness);
         }
+
         if (_mode == :free) {
             _statusText = "Свободный темп";
-            _circleRadiusPercent = 0.0;
         } else {
             var totalTicks = _cycleTotal * 10;
-            
-            // Расчет циклов
             var currentFullCycles = (_tickCount / totalTicks).toNumber();
             if (currentFullCycles > _lastCycleCount) {
                 _cycles = currentFullCycles;
@@ -135,16 +136,14 @@ if (_session != null) {
                 _statusText = "Вдох";
                 _circleRadiusPercent = second / _inhale;
                 if (currentTickInCycle == 0) { triggerVibe(); }
-            } 
-            else if (second < (_inhale + _hold)) {
+            } else if (second < (_inhale + _hold)) {
                 _statusText = "Задержка";
                 _circleRadiusPercent = 1.0;
-            } 
-            else if (second < (_inhale + _hold + _exhale)) {
+            } else if (second < (_inhale + _hold + _exhale)) {
                 _statusText = "Выдох";
                 var exhaleTime = second - (_inhale + _hold);
                 _circleRadiusPercent = 1.0 - (exhaleTime / _exhale);
-                if (currentTickInCycle == ((_inhale + _hold) * 10).toLong()) { triggerVibe(); }
+                if (currentTickInCycle == ((_inhale + _hold) * 10).toNumber()) { triggerVibe(); }
             } else {
                 _statusText = "Задержка";
                 _circleRadiusPercent = 0.0;
@@ -168,42 +167,57 @@ if (_session != null) {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
 
+        if (!_isActive) {
+            // Экран ожидания старта
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(w / 2, h / 2 - 20, Graphics.FONT_MEDIUM, "ГОТОВЫ?", Graphics.TEXT_JUSTIFY_CENTER);
+            dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(w / 2, h / 2 + 20, Graphics.FONT_XTINY, "Нажмите START", Graphics.TEXT_JUSTIFY_CENTER);
+            return;
+        }
+
+        // Отрисовка активного упражнения
         if (_mode == :free) {
             dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
             dc.setPenWidth(2);
             dc.drawCircle(w / 2, h / 2, (w < h ? w : h) / 2.2);
 
             var totalSec = _tickCount / 10;
-            var timeStr = (totalSec / 60) + ":" + (totalSec % 60).format("%02d");
+            var timeStr = (totalSec / 60).toNumber() + ":" + (totalSec % 60).format("%02d");
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
             dc.drawText(w / 2, h / 2 - 20, Graphics.FONT_LARGE, timeStr, Graphics.TEXT_JUSTIFY_CENTER);
-
+            
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
             dc.drawText(w / 2, h / 2 + 30, Graphics.FONT_XTINY, "СВОБОДНЫЙ ТЕМП", Graphics.TEXT_JUSTIFY_CENTER);
-            
-            if (_currentHR > 0) {
-                dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(w / 2, h - 60, Graphics.FONT_SMALL, "♥ " + _currentHR, Graphics.TEXT_JUSTIFY_CENTER);
-            }
         } else {
-            if (_statusText.equals("Вдох")) { dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT); }
-            else if (_statusText.equals("Выдох")) { dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT); }
-            else { dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT); }
+            var color = _statusText.equals("Вдох") ? Graphics.COLOR_GREEN : (_statusText.equals("Выдох") ? Graphics.COLOR_RED : Graphics.COLOR_BLUE);
+            dc.setColor(color, Graphics.COLOR_TRANSPARENT);
 
             var maxRadius = (w < h ? w : h) / 2.5;
-            var minRadius = 25;
-            var currentRadius = minRadius + (maxRadius - minRadius) * _circleRadiusPercent;
+            var currentRadius = 25 + (maxRadius - 25) * _circleRadiusPercent;
 
             dc.setPenWidth(12);
             dc.drawCircle(w / 2, h / 2, currentRadius);
 
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
             dc.drawText(w / 2, h / 2 - 15, Graphics.FONT_MEDIUM, _statusText, Graphics.TEXT_JUSTIFY_CENTER);
-            
-            if (_currentHR > 0) {
-                dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-                dc.drawText(w / 2, h - 50, Graphics.FONT_XTINY, "HR: " + _currentHR, Graphics.TEXT_JUSTIFY_CENTER);
-            }
         }
+
+        if (_currentHR > 0) {
+            dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(w / 2, h - 50, Graphics.FONT_XTINY, "HR: " + _currentHR, Graphics.TEXT_JUSTIFY_CENTER);
+        }
+    }
+
+    // Метод завершения (вызывать из делегата)
+    function exitToSummary() {
+        if (_session != null && _session.isRecording()) {
+            _session.stop();
+            _session.save();
+            _session = null;
+        }
+        var duration = _tickCount / 10;
+        var endHR = getHeartRate();
+        WatchUi.switchToView(new SummaryView(duration, _cycles, _startHR, endHR), new SummaryDelegate(), WatchUi.SLIDE_UP);
     }
 }
