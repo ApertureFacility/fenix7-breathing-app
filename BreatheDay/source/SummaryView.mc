@@ -13,10 +13,8 @@ class SummaryView extends WatchUi.View {
         _endHR = endHR;
     }
 
-    // Анализ эффективности на основе падения пульса
     function calculateEffectiveness() {
         if (_startHR <= 0 || _endHR <= 0) { return "НЕТ ДАННЫХ"; }
-        
         var diff = _startHR - _endHR;
         var percentDrop = (diff.toFloat() / _startHR.toFloat()) * 100;
 
@@ -33,58 +31,50 @@ class SummaryView extends WatchUi.View {
         var w = dc.getWidth();
         var h = dc.getHeight();
 
-        // Заголовок
+        // 1. ВЕРХ: Заголовок и Результат
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(w / 2, 35, Graphics.FONT_TINY, "ИТОГИ СЕССИИ", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(w / 2, h * 0.15, Graphics.FONT_XTINY, "ИТОГИ СЕССИИ", Graphics.TEXT_JUSTIFY_CENTER);
 
-        // Блок аналитики (Эффективность)
         var resultText = calculateEffectiveness();
         var resultColor = (_startHR > _endHR) ? Graphics.COLOR_GREEN : Graphics.COLOR_YELLOW;
-        
-        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(w / 2, 65, Graphics.FONT_XTINY, "ЭФФЕКТИВНОСТЬ:", Graphics.TEXT_JUSTIFY_CENTER);
         dc.setColor(resultColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(w / 2, 85, Graphics.FONT_SMALL, resultText, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(w / 2, h * 0.25, Graphics.FONT_SMALL, resultText, Graphics.TEXT_JUSTIFY_CENTER);
 
-        // Разделительная линия
-        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawLine(w * 0.2, h / 2, w * 0.8, h / 2);
-
-        // Сетка данных (Время и Циклы)
-        drawStat(dc, w/2 - 55, h/2 + 10, "ВРЕМЯ", formatTime(_duration));
-        drawStat(dc, w/2 + 55, h/2 + 10, "ЦИКЛЫ", _cycles.toString());
+        // 2. ЦЕНТР: Статистика
+        drawStat(dc, w/2 - 55, h/2 - 20, "ВРЕМЯ", formatTime(_duration));
+        drawStat(dc, w/2 + 55, h/2 - 20, "ЦИКЛЫ", _cycles.toString());
         
-        // Визуализация пульса
-        drawHRScale(dc, w/2, h - 60, _startHR, _endHR);
-
-        // Подсказка для выхода
+        // Линия-разделитель (чуть выше, чем была)
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(w / 2, h - 25, Graphics.FONT_XTINY, "Нажми BACK для выхода", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawLine(w * 0.25, h/2 + 30, w * 0.75, h/2 + 30);
+
+        // 3. НИЗ: Шкала пульса
+        // Используем h * 0.78 чтобы опустить всю конструкцию ниже
+        drawHRScale(dc, w/2, h * 0.78, _startHR, _endHR);
     }
 
-    // Рисует графическую шкалу пульса
     function drawHRScale(dc, x, y, start, end) {
         var barWidth = 120;
         
+        // Подпись: теперь она выше линии на 25 пикселей (хороший отступ)
+        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(x, y - 25, Graphics.FONT_XTINY, "PULSE: START > END", Graphics.TEXT_JUSTIFY_CENTER);
+
         // Базовая линия
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.setPenWidth(3);
         dc.drawLine(x - barWidth/2, y, x + barWidth/2, y);
 
-        // Начальный пульс
+        // Начальный пульс (белая точка)
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(x - barWidth/2, y, 5);
         dc.drawText(x - barWidth/2, y + 10, Graphics.FONT_XTINY, start.toString(), Graphics.TEXT_JUSTIFY_CENTER);
 
-        // Конечный пульс
+        // Конечный пульс (цветная точка)
         var endColor = (start > end) ? Graphics.COLOR_GREEN : Graphics.COLOR_RED;
         dc.setColor(endColor, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(x + barWidth/2, y, 7);
         dc.drawText(x + barWidth/2, y + 10, Graphics.FONT_XTINY, end.toString(), Graphics.TEXT_JUSTIFY_CENTER);
-        
-        // Подпись
-        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(x, y - 25, Graphics.FONT_XTINY, "PULSE: START > END", Graphics.TEXT_JUSTIFY_CENTER);
     }
 
     function drawStat(dc, x, y, label, value) {
@@ -102,9 +92,7 @@ class SummaryView extends WatchUi.View {
 }
 
 class SummaryDelegate extends WatchUi.BehaviorDelegate {
-    function initialize() {
-        BehaviorDelegate.initialize();
-    }
+    function initialize() { BehaviorDelegate.initialize(); }
     function onBack() {
         WatchUi.popView(WatchUi.SLIDE_DOWN);
         return true;

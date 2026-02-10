@@ -8,430 +8,437 @@
 <entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="4" lineNum="3" parent="globals/ModeMenuDelegate" pc="268435496" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="5" lineNum="26" parent="globals" pc="268435508" symbol="getApp"/>
 <entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="5" lineNum="27" parent="globals" pc="268435518" symbol="getApp"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="6" lineNum="5" parent="globals/BreatheDayApp" pc="268435529" symbol="&lt;init&gt;"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268435541" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="8" lineNum="104" parent="globals/SummaryDelegate" pc="268435561" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="9" lineNum="5" parent="globals/SummaryView" pc="268435573" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="10" lineNum="5" parent="globals/BreatheDayMenuDelegate" pc="268435585" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="11" lineNum="4" parent="globals/BreathingViewDelegate" pc="268435597" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="12" lineNum="10" parent="globals/BreatheDayDelegate" pc="268435609" symbol="onMenu"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="12" lineNum="11" parent="globals/BreatheDayDelegate" pc="268435611" symbol="onMenu"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="12" lineNum="12" parent="globals/BreatheDayDelegate" pc="268435676" symbol="onMenu"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="13" lineNum="6" parent="globals/BreatheDayDelegate" pc="268435678" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="13" lineNum="7" parent="globals/BreatheDayDelegate" pc="268435680" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="14" lineNum="5" parent="globals/ModeMenuView" pc="268435693" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="14" lineNum="6" parent="globals/ModeMenuView" pc="268435695" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="14" lineNum="9" parent="globals/ModeMenuView" pc="268435725" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="14" lineNum="10" parent="globals/ModeMenuView" pc="268435768" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="14" lineNum="11" parent="globals/ModeMenuView" pc="268435815" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="14" lineNum="12" parent="globals/ModeMenuView" pc="268435862" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="15" lineNum="91" parent="globals/BreathingView" pc="268435910" symbol="stopAndSaveSession"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="15" lineNum="92" parent="globals/BreathingView" pc="268435912" symbol="stopAndSaveSession"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="15" lineNum="93" parent="globals/BreathingView" pc="268435935" symbol="stopAndSaveSession"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="15" lineNum="94" parent="globals/BreathingView" pc="268435947" symbol="stopAndSaveSession"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="15" lineNum="95" parent="globals/BreathingView" pc="268435959" symbol="stopAndSaveSession"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="16" lineNum="82" parent="globals/BreathingView" pc="268435971" symbol="onShow"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="16" lineNum="83" parent="globals/BreathingView" pc="268435973" symbol="onShow"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="17" lineNum="156" parent="globals/BreathingView" pc="268436004" symbol="triggerVibe"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="17" lineNum="157" parent="globals/BreathingView" pc="268436007" symbol="triggerVibe"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="17" lineNum="159" parent="globals/BreathingView" pc="268436022" symbol="triggerVibe"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="17" lineNum="160" parent="globals/BreathingView" pc="268436058" symbol="triggerVibe"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="17" lineNum="161" parent="globals/BreathingView" pc="268436079" symbol="triggerVibe"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="100" parent="globals/BreathingView" pc="268436099" symbol="getHeartRate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="101" parent="globals/BreathingView" pc="268436102" symbol="getHeartRate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="102" parent="globals/BreathingView" pc="268436114" symbol="getHeartRate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="103" parent="globals/BreathingView" pc="268436136" symbol="getHeartRate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="105" parent="globals/BreathingView" pc="268436147" symbol="getHeartRate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="108" parent="globals/BreathingView" pc="268436149" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="109" parent="globals/BreathingView" pc="268436152" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="110" parent="globals/BreathingView" pc="268436167" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="112" parent="globals/BreathingView" pc="268436180" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="113" parent="globals/BreathingView" pc="268436222" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="114" parent="globals/BreathingView" pc="268436235" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="114" parent="globals/BreathingView" pc="268436243" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="115" parent="globals/BreathingView" pc="268436250" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="115" parent="globals/BreathingView" pc="268436257" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="116" parent="globals/BreathingView" pc="268436263" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="118" parent="globals/BreathingView" pc="268436282" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="119" parent="globals/BreathingView" pc="268436296" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="120" parent="globals/BreathingView" pc="268436308" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="122" parent="globals/BreathingView" pc="268436319" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="125" parent="globals/BreathingView" pc="268436329" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="126" parent="globals/BreathingView" pc="268436345" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="127" parent="globals/BreathingView" pc="268436356" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="128" parent="globals/BreathingView" pc="268436365" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="131" parent="globals/BreathingView" pc="268436377" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="132" parent="globals/BreathingView" pc="268436387" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="134" parent="globals/BreathingView" pc="268436397" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="135" parent="globals/BreathingView" pc="268436408" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="136" parent="globals/BreathingView" pc="268436420" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="137" parent="globals/BreathingView" pc="268436435" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="137" parent="globals/BreathingView" pc="268436442" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="139" parent="globals/BreathingView" pc="268436455" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="140" parent="globals/BreathingView" pc="268436472" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="141" parent="globals/BreathingView" pc="268436484" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="143" parent="globals/BreathingView" pc="268436499" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="144" parent="globals/BreathingView" pc="268436522" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="145" parent="globals/BreathingView" pc="268436534" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="146" parent="globals/BreathingView" pc="268436550" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="147" parent="globals/BreathingView" pc="268436571" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="147" parent="globals/BreathingView" pc="268436597" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="149" parent="globals/BreathingView" pc="268436610" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="150" parent="globals/BreathingView" pc="268436622" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="153" parent="globals/BreathingView" pc="268436630" symbol="onTimerTick"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="32" parent="globals/BreathingView" pc="268436642" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="33" parent="globals/BreathingView" pc="268436645" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="34" parent="globals/BreathingView" pc="268436657" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="35" parent="globals/BreathingView" pc="268436666" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="39" parent="globals/BreathingView" pc="268436683" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="41" parent="globals/BreathingView" pc="268436696" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="42" parent="globals/BreathingView" pc="268436700" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="43" parent="globals/BreathingView" pc="268436704" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="46" parent="globals/BreathingView" pc="268436718" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="52" parent="globals/BreathingView" pc="268436768" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="53" parent="globals/BreathingView" pc="268436777" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="55" parent="globals/BreathingView" pc="268436792" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="56" parent="globals/BreathingView" pc="268436801" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="62" parent="globals/BreathingView" pc="268436853" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="65" parent="globals/BreathingView" pc="268436868" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="66" parent="globals/BreathingView" pc="268436882" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="66" parent="globals/BreathingView" pc="268436891" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="66" parent="globals/BreathingView" pc="268436900" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="67" parent="globals/BreathingView" pc="268436909" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="68" parent="globals/BreathingView" pc="268436921" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="69" parent="globals/BreathingView" pc="268436935" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="69" parent="globals/BreathingView" pc="268436943" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="69" parent="globals/BreathingView" pc="268436951" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="70" parent="globals/BreathingView" pc="268436959" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="71" parent="globals/BreathingView" pc="268436971" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="72" parent="globals/BreathingView" pc="268436985" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="72" parent="globals/BreathingView" pc="268436994" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="72" parent="globals/BreathingView" pc="268437003" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="73" parent="globals/BreathingView" pc="268437012" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="75" parent="globals/BreathingView" pc="268437024" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="75" parent="globals/BreathingView" pc="268437033" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="75" parent="globals/BreathingView" pc="268437041" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="76" parent="globals/BreathingView" pc="268437050" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="79" parent="globals/BreathingView" pc="268437059" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="86" parent="globals/BreathingView" pc="268437089" symbol="onHide"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="87" parent="globals/BreathingView" pc="268437091" symbol="onHide"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="165" parent="globals/BreathingView" pc="268437104" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="166" parent="globals/BreathingView" pc="268437107" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="167" parent="globals/BreathingView" pc="268437116" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="168" parent="globals/BreathingView" pc="268437125" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="169" parent="globals/BreathingView" pc="268437137" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="171" parent="globals/BreathingView" pc="268437145" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="172" parent="globals/BreathingView" pc="268437159" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="173" parent="globals/BreathingView" pc="268437176" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="174" parent="globals/BreathingView" pc="268437188" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="176" parent="globals/BreathingView" pc="268437229" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="177" parent="globals/BreathingView" pc="268437239" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="178" parent="globals/BreathingView" pc="268437271" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="179" parent="globals/BreathingView" pc="268437288" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="181" parent="globals/BreathingView" pc="268437317" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="182" parent="globals/BreathingView" pc="268437333" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="184" parent="globals/BreathingView" pc="268437364" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="185" parent="globals/BreathingView" pc="268437374" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="186" parent="globals/BreathingView" pc="268437391" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="189" parent="globals/BreathingView" pc="268437432" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="189" parent="globals/BreathingView" pc="268437453" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="190" parent="globals/BreathingView" pc="268437472" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="190" parent="globals/BreathingView" pc="268437493" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="191" parent="globals/BreathingView" pc="268437513" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="193" parent="globals/BreathingView" pc="268437529" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="194" parent="globals/BreathingView" pc="268437552" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="195" parent="globals/BreathingView" pc="268437556" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="197" parent="globals/BreathingView" pc="268437572" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="198" parent="globals/BreathingView" pc="268437584" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="200" parent="globals/BreathingView" pc="268437606" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="201" parent="globals/BreathingView" pc="268437623" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="203" parent="globals/BreathingView" pc="268437655" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="204" parent="globals/BreathingView" pc="268437665" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="205" parent="globals/BreathingView" pc="268437681" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="23" lineNum="17" parent="globals/ModeMenuDelegate" pc="268437719" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="23" lineNum="18" parent="globals/ModeMenuDelegate" pc="268437721" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="24" lineNum="5" parent="globals/ModeMenuDelegate" pc="268437737" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="24" lineNum="6" parent="globals/ModeMenuDelegate" pc="268437739" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="25" lineNum="9" parent="globals/ModeMenuDelegate" pc="268437752" symbol="onSelect"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="25" lineNum="10" parent="globals/ModeMenuDelegate" pc="268437755" symbol="onSelect"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="25" lineNum="11" parent="globals/ModeMenuDelegate" pc="268437764" symbol="onSelect"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="25" lineNum="13" parent="globals/ModeMenuDelegate" pc="268437786" symbol="onSelect"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="26" lineNum="12" parent="globals/BreatheDayApp" pc="268437824" symbol="onStart"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="27" lineNum="20" parent="globals/BreatheDayApp" pc="268437827" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="27" lineNum="21" parent="globals/BreatheDayApp" pc="268437829" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="28" lineNum="7" parent="globals/BreatheDayApp" pc="268437876" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="28" lineNum="8" parent="globals/BreatheDayApp" pc="268437878" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="29" lineNum="16" parent="globals/BreatheDayApp" pc="268437891" symbol="onStop"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="30" lineNum="108" parent="globals/SummaryDelegate" pc="268437894" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="30" lineNum="109" parent="globals/SummaryDelegate" pc="268437896" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="30" lineNum="110" parent="globals/SummaryDelegate" pc="268437911" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="31" lineNum="105" parent="globals/SummaryDelegate" pc="268437913" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="31" lineNum="106" parent="globals/SummaryDelegate" pc="268437915" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="17" parent="globals/SummaryView" pc="268437928" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="18" parent="globals/SummaryView" pc="268437931" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="18" parent="globals/SummaryView" pc="268437951" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="20" parent="globals/SummaryView" pc="268437960" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="21" parent="globals/SummaryView" pc="268437973" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="23" parent="globals/SummaryView" pc="268437997" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="23" parent="globals/SummaryView" pc="268438005" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="24" parent="globals/SummaryView" pc="268438014" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="24" parent="globals/SummaryView" pc="268438022" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="25" parent="globals/SummaryView" pc="268438031" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="25" parent="globals/SummaryView" pc="268438038" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="32" lineNum="26" parent="globals/SummaryView" pc="268438047" symbol="calculateEffectiveness"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="33" lineNum="97" parent="globals/SummaryView" pc="268438053" symbol="formatTime"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="33" lineNum="98" parent="globals/SummaryView" pc="268438056" symbol="formatTime"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="33" lineNum="99" parent="globals/SummaryView" pc="268438069" symbol="formatTime"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="33" lineNum="100" parent="globals/SummaryView" pc="268438082" symbol="formatTime"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="34" lineNum="8" parent="globals/SummaryView" pc="268438106" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="34" lineNum="9" parent="globals/SummaryView" pc="268438108" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="34" lineNum="10" parent="globals/SummaryView" pc="268438120" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="34" lineNum="11" parent="globals/SummaryView" pc="268438129" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="34" lineNum="12" parent="globals/SummaryView" pc="268438138" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="34" lineNum="13" parent="globals/SummaryView" pc="268438147" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="29" parent="globals/SummaryView" pc="268438157" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="30" parent="globals/SummaryView" pc="268438160" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="31" parent="globals/SummaryView" pc="268438172" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="33" parent="globals/SummaryView" pc="268438180" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="34" parent="globals/SummaryView" pc="268438189" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="37" parent="globals/SummaryView" pc="268438198" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="38" parent="globals/SummaryView" pc="268438215" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="41" parent="globals/SummaryView" pc="268438241" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="42" parent="globals/SummaryView" pc="268438249" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="44" parent="globals/SummaryView" pc="268438277" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="45" parent="globals/SummaryView" pc="268438294" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="46" parent="globals/SummaryView" pc="268438319" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="47" parent="globals/SummaryView" pc="268438333" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="50" parent="globals/SummaryView" pc="268438356" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="51" parent="globals/SummaryView" pc="268438372" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="54" parent="globals/SummaryView" pc="268438408" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="55" parent="globals/SummaryView" pc="268438453" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="58" parent="globals/SummaryView" pc="268438496" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="61" parent="globals/SummaryView" pc="268438527" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="35" lineNum="62" parent="globals/SummaryView" pc="268438543" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="66" parent="globals/SummaryView" pc="268438572" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="67" parent="globals/SummaryView" pc="268438575" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="70" parent="globals/SummaryView" pc="268438579" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="71" parent="globals/SummaryView" pc="268438595" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="72" parent="globals/SummaryView" pc="268438607" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="75" parent="globals/SummaryView" pc="268438637" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="76" parent="globals/SummaryView" pc="268438654" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="77" parent="globals/SummaryView" pc="268438676" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="80" parent="globals/SummaryView" pc="268438709" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="81" parent="globals/SummaryView" pc="268438731" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="82" parent="globals/SummaryView" pc="268438745" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="83" parent="globals/SummaryView" pc="268438767" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="86" parent="globals/SummaryView" pc="268438800" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="36" lineNum="87" parent="globals/SummaryView" pc="268438817" symbol="drawHRScale"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="37" lineNum="90" parent="globals/SummaryView" pc="268438843" symbol="drawStat"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="37" lineNum="91" parent="globals/SummaryView" pc="268438845" symbol="drawStat"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="37" lineNum="92" parent="globals/SummaryView" pc="268438862" symbol="drawStat"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="37" lineNum="93" parent="globals/SummaryView" pc="268438881" symbol="drawStat"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="37" lineNum="94" parent="globals/SummaryView" pc="268438898" symbol="drawStat"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="38" lineNum="11" parent="globals/BreatheDayMenuDelegate" pc="268438922" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="38" lineNum="12" parent="globals/BreatheDayMenuDelegate" pc="268438924" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="38" lineNum="13" parent="globals/BreatheDayMenuDelegate" pc="268438935" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="38" lineNum="14" parent="globals/BreatheDayMenuDelegate" pc="268438956" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="38" lineNum="15" parent="globals/BreatheDayMenuDelegate" pc="268438967" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="39" lineNum="7" parent="globals/BreatheDayMenuDelegate" pc="268438989" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="39" lineNum="8" parent="globals/BreatheDayMenuDelegate" pc="268438991" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="40" lineNum="20" parent="globals/BreathingViewDelegate" pc="268439004" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="40" lineNum="21" parent="globals/BreathingViewDelegate" pc="268439006" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="40" lineNum="22" parent="globals/BreathingViewDelegate" pc="268439013" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="41" lineNum="7" parent="globals/BreathingViewDelegate" pc="268439015" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="41" lineNum="8" parent="globals/BreathingViewDelegate" pc="268439017" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="41" lineNum="9" parent="globals/BreathingViewDelegate" pc="268439029" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="42" lineNum="26" parent="globals/BreathingViewDelegate" pc="268439039" symbol="exitToSummary"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="42" lineNum="28" parent="globals/BreathingViewDelegate" pc="268439042" symbol="exitToSummary"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="42" lineNum="30" parent="globals/BreathingViewDelegate" pc="268439054" symbol="exitToSummary"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="42" lineNum="31" parent="globals/BreathingViewDelegate" pc="268439077" symbol="exitToSummary"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="42" lineNum="33" parent="globals/BreathingViewDelegate" pc="268439085" symbol="exitToSummary"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="42" lineNum="34" parent="globals/BreathingViewDelegate" pc="268439097" symbol="exitToSummary"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="42" lineNum="35" parent="globals/BreathingViewDelegate" pc="268439109" symbol="exitToSummary"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="42" lineNum="37" parent="globals/BreathingViewDelegate" pc="268439121" symbol="exitToSummary"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="43" lineNum="13" parent="globals/BreathingViewDelegate" pc="268439181" symbol="onSelect"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="43" lineNum="14" parent="globals/BreathingViewDelegate" pc="268439183" symbol="onSelect"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="43" lineNum="15" parent="globals/BreathingViewDelegate" pc="268439190" symbol="onSelect"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="44" lineNum="14" parent="globals/Rez/Layouts" pc="268439192" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="44" lineNum="15" parent="globals/Rez/Layouts" pc="268439203" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="44" lineNum="17" parent="globals/Rez/Layouts" pc="268439212" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="44" lineNum="19" parent="globals/Rez/Layouts" pc="268439315" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="44" lineNum="20" parent="globals/Rez/Layouts" pc="268439399" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="44" lineNum="22" parent="globals/Rez/Layouts" pc="268439430" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="45" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268439445" symbol="&lt;init&gt;"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="46" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268439457" symbol="initialize"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="46" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268439459" symbol="initialize"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="46" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268439471" symbol="initialize"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="46" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268439516" symbol="initialize"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435529" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="7" lineNum="5" parent="globals/BreatheDayMenuDelegate" pc="268435549" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayView.mc" id="8" lineNum="4" parent="globals/BreatheDayView" pc="268435561" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="9" lineNum="5" parent="globals/BreatheDayApp" pc="268435573" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="10" lineNum="94" parent="globals/SummaryDelegate" pc="268435585" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="11" lineNum="5" parent="globals/SummaryView" pc="268435597" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="12" lineNum="4" parent="globals/BreathingViewDelegate" pc="268435609" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="13" lineNum="10" parent="globals/BreatheDayDelegate" pc="268435621" symbol="onMenu"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="13" lineNum="11" parent="globals/BreatheDayDelegate" pc="268435623" symbol="onMenu"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="13" lineNum="12" parent="globals/BreatheDayDelegate" pc="268435688" symbol="onMenu"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="14" lineNum="6" parent="globals/BreatheDayDelegate" pc="268435690" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayDelegate.mc" id="14" lineNum="7" parent="globals/BreatheDayDelegate" pc="268435692" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="15" lineNum="5" parent="globals/ModeMenuView" pc="268435705" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="15" lineNum="6" parent="globals/ModeMenuView" pc="268435707" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="15" lineNum="9" parent="globals/ModeMenuView" pc="268435737" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="15" lineNum="10" parent="globals/ModeMenuView" pc="268435780" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="15" lineNum="11" parent="globals/ModeMenuView" pc="268435827" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuView.mc" id="15" lineNum="12" parent="globals/ModeMenuView" pc="268435874" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="16" lineNum="91" parent="globals/BreathingView" pc="268435922" symbol="stopAndSaveSession"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="16" lineNum="92" parent="globals/BreathingView" pc="268435924" symbol="stopAndSaveSession"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="16" lineNum="93" parent="globals/BreathingView" pc="268435947" symbol="stopAndSaveSession"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="16" lineNum="94" parent="globals/BreathingView" pc="268435959" symbol="stopAndSaveSession"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="16" lineNum="95" parent="globals/BreathingView" pc="268435971" symbol="stopAndSaveSession"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="17" lineNum="82" parent="globals/BreathingView" pc="268435983" symbol="onShow"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="17" lineNum="83" parent="globals/BreathingView" pc="268435985" symbol="onShow"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="156" parent="globals/BreathingView" pc="268436016" symbol="triggerVibe"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="157" parent="globals/BreathingView" pc="268436019" symbol="triggerVibe"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="159" parent="globals/BreathingView" pc="268436034" symbol="triggerVibe"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="160" parent="globals/BreathingView" pc="268436070" symbol="triggerVibe"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="18" lineNum="161" parent="globals/BreathingView" pc="268436091" symbol="triggerVibe"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="100" parent="globals/BreathingView" pc="268436111" symbol="getHeartRate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="101" parent="globals/BreathingView" pc="268436114" symbol="getHeartRate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="102" parent="globals/BreathingView" pc="268436126" symbol="getHeartRate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="103" parent="globals/BreathingView" pc="268436148" symbol="getHeartRate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="19" lineNum="105" parent="globals/BreathingView" pc="268436159" symbol="getHeartRate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="108" parent="globals/BreathingView" pc="268436161" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="109" parent="globals/BreathingView" pc="268436164" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="110" parent="globals/BreathingView" pc="268436179" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="112" parent="globals/BreathingView" pc="268436192" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="113" parent="globals/BreathingView" pc="268436234" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="114" parent="globals/BreathingView" pc="268436247" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="114" parent="globals/BreathingView" pc="268436255" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="115" parent="globals/BreathingView" pc="268436262" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="115" parent="globals/BreathingView" pc="268436269" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="116" parent="globals/BreathingView" pc="268436275" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="118" parent="globals/BreathingView" pc="268436294" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="119" parent="globals/BreathingView" pc="268436308" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="120" parent="globals/BreathingView" pc="268436320" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="122" parent="globals/BreathingView" pc="268436331" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="125" parent="globals/BreathingView" pc="268436341" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="126" parent="globals/BreathingView" pc="268436357" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="127" parent="globals/BreathingView" pc="268436368" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="128" parent="globals/BreathingView" pc="268436377" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="131" parent="globals/BreathingView" pc="268436389" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="132" parent="globals/BreathingView" pc="268436399" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="134" parent="globals/BreathingView" pc="268436409" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="135" parent="globals/BreathingView" pc="268436420" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="136" parent="globals/BreathingView" pc="268436432" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="137" parent="globals/BreathingView" pc="268436447" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="137" parent="globals/BreathingView" pc="268436454" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="139" parent="globals/BreathingView" pc="268436467" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="140" parent="globals/BreathingView" pc="268436484" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="141" parent="globals/BreathingView" pc="268436496" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="143" parent="globals/BreathingView" pc="268436511" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="144" parent="globals/BreathingView" pc="268436534" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="145" parent="globals/BreathingView" pc="268436546" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="146" parent="globals/BreathingView" pc="268436562" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="147" parent="globals/BreathingView" pc="268436583" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="147" parent="globals/BreathingView" pc="268436609" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="149" parent="globals/BreathingView" pc="268436622" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="150" parent="globals/BreathingView" pc="268436634" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="20" lineNum="153" parent="globals/BreathingView" pc="268436642" symbol="onTimerTick"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="32" parent="globals/BreathingView" pc="268436654" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="33" parent="globals/BreathingView" pc="268436657" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="34" parent="globals/BreathingView" pc="268436669" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="35" parent="globals/BreathingView" pc="268436678" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="39" parent="globals/BreathingView" pc="268436695" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="41" parent="globals/BreathingView" pc="268436708" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="42" parent="globals/BreathingView" pc="268436712" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="43" parent="globals/BreathingView" pc="268436716" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="46" parent="globals/BreathingView" pc="268436730" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="52" parent="globals/BreathingView" pc="268436780" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="53" parent="globals/BreathingView" pc="268436789" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="55" parent="globals/BreathingView" pc="268436804" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="56" parent="globals/BreathingView" pc="268436813" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="62" parent="globals/BreathingView" pc="268436865" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="65" parent="globals/BreathingView" pc="268436880" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="66" parent="globals/BreathingView" pc="268436894" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="66" parent="globals/BreathingView" pc="268436903" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="66" parent="globals/BreathingView" pc="268436912" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="67" parent="globals/BreathingView" pc="268436921" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="68" parent="globals/BreathingView" pc="268436933" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="69" parent="globals/BreathingView" pc="268436947" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="69" parent="globals/BreathingView" pc="268436955" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="69" parent="globals/BreathingView" pc="268436963" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="70" parent="globals/BreathingView" pc="268436971" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="71" parent="globals/BreathingView" pc="268436983" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="72" parent="globals/BreathingView" pc="268436997" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="72" parent="globals/BreathingView" pc="268437006" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="72" parent="globals/BreathingView" pc="268437015" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="73" parent="globals/BreathingView" pc="268437024" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="75" parent="globals/BreathingView" pc="268437036" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="75" parent="globals/BreathingView" pc="268437045" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="75" parent="globals/BreathingView" pc="268437053" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="76" parent="globals/BreathingView" pc="268437062" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="21" lineNum="79" parent="globals/BreathingView" pc="268437071" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="86" parent="globals/BreathingView" pc="268437101" symbol="onHide"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="22" lineNum="87" parent="globals/BreathingView" pc="268437103" symbol="onHide"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="165" parent="globals/BreathingView" pc="268437116" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="166" parent="globals/BreathingView" pc="268437119" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="167" parent="globals/BreathingView" pc="268437128" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="168" parent="globals/BreathingView" pc="268437137" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="169" parent="globals/BreathingView" pc="268437149" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="171" parent="globals/BreathingView" pc="268437157" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="172" parent="globals/BreathingView" pc="268437171" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="173" parent="globals/BreathingView" pc="268437188" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="174" parent="globals/BreathingView" pc="268437200" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="176" parent="globals/BreathingView" pc="268437241" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="177" parent="globals/BreathingView" pc="268437251" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="178" parent="globals/BreathingView" pc="268437283" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="179" parent="globals/BreathingView" pc="268437300" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="181" parent="globals/BreathingView" pc="268437329" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="182" parent="globals/BreathingView" pc="268437345" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="184" parent="globals/BreathingView" pc="268437376" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="185" parent="globals/BreathingView" pc="268437386" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="186" parent="globals/BreathingView" pc="268437403" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="189" parent="globals/BreathingView" pc="268437444" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="189" parent="globals/BreathingView" pc="268437465" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="190" parent="globals/BreathingView" pc="268437484" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="190" parent="globals/BreathingView" pc="268437505" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="191" parent="globals/BreathingView" pc="268437525" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="193" parent="globals/BreathingView" pc="268437541" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="194" parent="globals/BreathingView" pc="268437564" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="195" parent="globals/BreathingView" pc="268437568" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="197" parent="globals/BreathingView" pc="268437584" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="198" parent="globals/BreathingView" pc="268437596" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="200" parent="globals/BreathingView" pc="268437618" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="201" parent="globals/BreathingView" pc="268437635" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="203" parent="globals/BreathingView" pc="268437667" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="204" parent="globals/BreathingView" pc="268437677" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingView.mc" id="23" lineNum="205" parent="globals/BreathingView" pc="268437693" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="24" lineNum="17" parent="globals/ModeMenuDelegate" pc="268437731" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="24" lineNum="18" parent="globals/ModeMenuDelegate" pc="268437733" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="25" lineNum="5" parent="globals/ModeMenuDelegate" pc="268437749" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="25" lineNum="6" parent="globals/ModeMenuDelegate" pc="268437751" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="26" lineNum="9" parent="globals/ModeMenuDelegate" pc="268437764" symbol="onSelect"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="26" lineNum="10" parent="globals/ModeMenuDelegate" pc="268437767" symbol="onSelect"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="26" lineNum="11" parent="globals/ModeMenuDelegate" pc="268437776" symbol="onSelect"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\ModeMenuDelegate.mc" id="26" lineNum="13" parent="globals/ModeMenuDelegate" pc="268437798" symbol="onSelect"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="27" lineNum="11" parent="globals/BreatheDayMenuDelegate" pc="268437836" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="27" lineNum="12" parent="globals/BreatheDayMenuDelegate" pc="268437838" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="27" lineNum="13" parent="globals/BreatheDayMenuDelegate" pc="268437849" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="27" lineNum="14" parent="globals/BreatheDayMenuDelegate" pc="268437870" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="27" lineNum="15" parent="globals/BreatheDayMenuDelegate" pc="268437881" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="28" lineNum="7" parent="globals/BreatheDayMenuDelegate" pc="268437903" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="28" lineNum="8" parent="globals/BreatheDayMenuDelegate" pc="268437905" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayView.mc" id="30" lineNum="11" parent="globals/BreatheDayView" pc="268437918" symbol="onLayout"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayView.mc" id="30" lineNum="12" parent="globals/BreatheDayView" pc="268437920" symbol="onLayout"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayView.mc" id="31" lineNum="6" parent="globals/BreatheDayView" pc="268437954" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayView.mc" id="31" lineNum="7" parent="globals/BreatheDayView" pc="268437956" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayView.mc" id="33" lineNum="22" parent="globals/BreatheDayView" pc="268437969" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayView.mc" id="33" lineNum="24" parent="globals/BreatheDayView" pc="268437971" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="34" lineNum="12" parent="globals/BreatheDayApp" pc="268437988" symbol="onStart"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="35" lineNum="20" parent="globals/BreatheDayApp" pc="268437991" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="35" lineNum="21" parent="globals/BreatheDayApp" pc="268437993" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="36" lineNum="7" parent="globals/BreatheDayApp" pc="268438040" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="36" lineNum="8" parent="globals/BreatheDayApp" pc="268438042" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayApp.mc" id="37" lineNum="16" parent="globals/BreatheDayApp" pc="268438055" symbol="onStop"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="38" lineNum="96" parent="globals/SummaryDelegate" pc="268438058" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="38" lineNum="97" parent="globals/SummaryDelegate" pc="268438060" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="38" lineNum="98" parent="globals/SummaryDelegate" pc="268438075" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="39" lineNum="95" parent="globals/SummaryDelegate" pc="268438077" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="39" lineNum="95" parent="globals/SummaryDelegate" pc="268438079" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="16" parent="globals/SummaryView" pc="268438092" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="17" parent="globals/SummaryView" pc="268438095" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="17" parent="globals/SummaryView" pc="268438115" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="18" parent="globals/SummaryView" pc="268438124" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="19" parent="globals/SummaryView" pc="268438137" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="21" parent="globals/SummaryView" pc="268438161" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="21" parent="globals/SummaryView" pc="268438169" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="22" parent="globals/SummaryView" pc="268438178" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="22" parent="globals/SummaryView" pc="268438186" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="23" parent="globals/SummaryView" pc="268438195" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="23" parent="globals/SummaryView" pc="268438202" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="40" lineNum="24" parent="globals/SummaryView" pc="268438211" symbol="calculateEffectiveness"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="41" lineNum="87" parent="globals/SummaryView" pc="268438217" symbol="formatTime"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="41" lineNum="88" parent="globals/SummaryView" pc="268438220" symbol="formatTime"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="41" lineNum="89" parent="globals/SummaryView" pc="268438233" symbol="formatTime"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="41" lineNum="90" parent="globals/SummaryView" pc="268438246" symbol="formatTime"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="42" lineNum="8" parent="globals/SummaryView" pc="268438270" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="42" lineNum="9" parent="globals/SummaryView" pc="268438272" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="42" lineNum="10" parent="globals/SummaryView" pc="268438284" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="42" lineNum="11" parent="globals/SummaryView" pc="268438293" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="42" lineNum="12" parent="globals/SummaryView" pc="268438302" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="42" lineNum="13" parent="globals/SummaryView" pc="268438311" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="27" parent="globals/SummaryView" pc="268438321" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="28" parent="globals/SummaryView" pc="268438324" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="29" parent="globals/SummaryView" pc="268438336" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="31" parent="globals/SummaryView" pc="268438344" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="32" parent="globals/SummaryView" pc="268438353" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="35" parent="globals/SummaryView" pc="268438362" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="36" parent="globals/SummaryView" pc="268438379" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="38" parent="globals/SummaryView" pc="268438410" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="39" parent="globals/SummaryView" pc="268438418" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="40" parent="globals/SummaryView" pc="268438446" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="41" parent="globals/SummaryView" pc="268438460" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="44" parent="globals/SummaryView" pc="268438489" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="45" parent="globals/SummaryView" pc="268438534" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="48" parent="globals/SummaryView" pc="268438577" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="49" parent="globals/SummaryView" pc="268438593" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="43" lineNum="53" parent="globals/SummaryView" pc="268438635" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="56" parent="globals/SummaryView" pc="268438670" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="57" parent="globals/SummaryView" pc="268438673" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="60" parent="globals/SummaryView" pc="268438677" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="61" parent="globals/SummaryView" pc="268438694" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="64" parent="globals/SummaryView" pc="268438719" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="65" parent="globals/SummaryView" pc="268438735" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="66" parent="globals/SummaryView" pc="268438747" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="69" parent="globals/SummaryView" pc="268438777" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="70" parent="globals/SummaryView" pc="268438794" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="71" parent="globals/SummaryView" pc="268438816" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="74" parent="globals/SummaryView" pc="268438849" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="75" parent="globals/SummaryView" pc="268438871" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="76" parent="globals/SummaryView" pc="268438885" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="44" lineNum="77" parent="globals/SummaryView" pc="268438907" symbol="drawHRScale"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="45" lineNum="80" parent="globals/SummaryView" pc="268438941" symbol="drawStat"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="45" lineNum="81" parent="globals/SummaryView" pc="268438943" symbol="drawStat"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="45" lineNum="82" parent="globals/SummaryView" pc="268438960" symbol="drawStat"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="45" lineNum="83" parent="globals/SummaryView" pc="268438979" symbol="drawStat"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\SummaryView.mc" id="45" lineNum="84" parent="globals/SummaryView" pc="268438996" symbol="drawStat"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="46" lineNum="20" parent="globals/BreathingViewDelegate" pc="268439020" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="46" lineNum="21" parent="globals/BreathingViewDelegate" pc="268439022" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="46" lineNum="22" parent="globals/BreathingViewDelegate" pc="268439029" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="47" lineNum="7" parent="globals/BreathingViewDelegate" pc="268439031" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="47" lineNum="8" parent="globals/BreathingViewDelegate" pc="268439033" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="47" lineNum="9" parent="globals/BreathingViewDelegate" pc="268439045" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="48" lineNum="26" parent="globals/BreathingViewDelegate" pc="268439055" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="48" lineNum="28" parent="globals/BreathingViewDelegate" pc="268439058" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="48" lineNum="30" parent="globals/BreathingViewDelegate" pc="268439070" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="48" lineNum="31" parent="globals/BreathingViewDelegate" pc="268439093" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="48" lineNum="33" parent="globals/BreathingViewDelegate" pc="268439101" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="48" lineNum="34" parent="globals/BreathingViewDelegate" pc="268439113" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="48" lineNum="35" parent="globals/BreathingViewDelegate" pc="268439125" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="48" lineNum="37" parent="globals/BreathingViewDelegate" pc="268439137" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="49" lineNum="13" parent="globals/BreathingViewDelegate" pc="268439197" symbol="onSelect"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="49" lineNum="14" parent="globals/BreathingViewDelegate" pc="268439199" symbol="onSelect"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="49" lineNum="15" parent="globals/BreathingViewDelegate" pc="268439206" symbol="onSelect"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="50" lineNum="14" parent="globals/Rez/Layouts" pc="268439208" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="50" lineNum="15" parent="globals/Rez/Layouts" pc="268439219" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="50" lineNum="17" parent="globals/Rez/Layouts" pc="268439228" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="50" lineNum="19" parent="globals/Rez/Layouts" pc="268439331" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="50" lineNum="20" parent="globals/Rez/Layouts" pc="268439415" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="50" lineNum="22" parent="globals/Rez/Layouts" pc="268439446" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="51" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268439461" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268439473" symbol="initialize"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268439475" symbol="initialize"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268439487" symbol="initialize"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="52" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268439532" symbol="initialize"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="8389346" symbol="text"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry id="34" method="true" symbol="stopAndSaveSession"/>
+<entry id="35" method="true" symbol="stopAndSaveSession"/>
 <entry id="5" module="true" symbol="globals/Rez/Menus"/>
 <entry id="8389849" symbol="units"/>
-<entry field="true" id="24" symbol="&lt;globals/BreathingView/&lt;&gt;_mode&gt;"/>
-<entry id="57" symbol="box"/>
+<entry field="true" id="25" symbol="&lt;globals/BreathingView/&lt;&gt;_mode&gt;"/>
+<entry id="58" symbol="box"/>
 <entry id="8388638" module="true" symbol="ActivityRecording"/>
-<entry field="true" id="38" symbol="&lt;globals/SummaryView/&lt;&gt;_cycles&gt;"/>
-<entry id="33" method="true" symbol="onTimerTick"/>
-<entry id="50" method="true" symbol="MainLayout"/>
+<entry field="true" id="39" symbol="&lt;globals/SummaryView/&lt;&gt;_cycles&gt;"/>
+<entry id="34" method="true" symbol="onTimerTick"/>
+<entry id="51" method="true" symbol="MainLayout"/>
 <entry id="8" object="true" symbol="BreatheDayDelegate"/>
-<entry field="true" id="41" symbol="&lt;globals/SummaryView/&lt;&gt;_startHR&gt;"/>
+<entry field="true" id="42" symbol="&lt;globals/SummaryView/&lt;&gt;_startHR&gt;"/>
 <entry field="true" id="8388890" symbol="sport"/>
-<entry id="60" symbol="SUB_SPORT_BREATHWORK"/>
-<entry field="true" id="18" symbol="&lt;globals/BreathingView/&lt;&gt;_cycleTotal&gt;"/>
-<entry id="35" method="true" symbol="triggerVibe"/>
-<entry field="true" id="20" symbol="&lt;globals/BreathingView/&lt;&gt;_exhale&gt;"/>
-<entry field="true" id="23" symbol="&lt;globals/BreathingView/&lt;&gt;_lastCycleCount&gt;"/>
-<entry id="56" symbol="even"/>
-<entry field="true" id="29" symbol="_stressField"/>
+<entry id="61" symbol="SUB_SPORT_BREATHWORK"/>
+<entry field="true" id="19" symbol="&lt;globals/BreathingView/&lt;&gt;_cycleTotal&gt;"/>
+<entry id="36" method="true" symbol="triggerVibe"/>
+<entry field="true" id="21" symbol="&lt;globals/BreathingView/&lt;&gt;_exhale&gt;"/>
+<entry field="true" id="24" symbol="&lt;globals/BreathingView/&lt;&gt;_lastCycleCount&gt;"/>
+<entry id="57" symbol="even"/>
+<entry field="true" id="30" symbol="_stressField"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="22" symbol="&lt;globals/BreathingView/&lt;&gt;_inhale&gt;"/>
-<entry field="true" id="28" symbol="&lt;globals/BreathingView/&lt;&gt;_statusText&gt;"/>
-<entry field="true" id="52" symbol="AppName"/>
+<entry field="true" id="23" symbol="&lt;globals/BreathingView/&lt;&gt;_inhale&gt;"/>
+<entry field="true" id="29" symbol="&lt;globals/BreathingView/&lt;&gt;_statusText&gt;"/>
+<entry field="true" id="53" symbol="AppName"/>
 <entry id="6" module="true" symbol="globals/Rez/Strings"/>
-<entry id="45" method="true" symbol="formatTime"/>
+<entry id="46" method="true" symbol="formatTime"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="8389345" symbol="rezId"/>
-<entry id="32" method="true" symbol="getHeartRate"/>
+<entry id="33" method="true" symbol="getHeartRate"/>
 <entry id="8388631" module="true" symbol="Activity"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389081" method="true" symbol="onBack"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
-<entry field="true" id="25" symbol="_session"/>
-<entry field="true" id="55" symbol="prompt"/>
-<entry field="true" id="49" symbol="id_monkey"/>
-<entry id="13" object="true" symbol="ModeMenuView"/>
+<entry field="true" id="26" symbol="_session"/>
+<entry field="true" id="56" symbol="prompt"/>
+<entry field="true" id="50" symbol="id_monkey"/>
+<entry id="14" object="true" symbol="ModeMenuView"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry id="42" method="true" symbol="calculateEffectiveness"/>
+<entry id="43" method="true" symbol="calculateEffectiveness"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="62" symbol="item_2"/>
-<entry id="61" symbol="item_1"/>
-<entry id="37" module="true" symbol="Menus"/>
+<entry id="63" symbol="item_2"/>
+<entry id="62" symbol="item_1"/>
+<entry id="38" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
 <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
-<entry field="true" id="30" symbol="&lt;globals/BreathingView/&lt;&gt;_tickCount&gt;"/>
-<entry id="44" method="true" symbol="drawStat"/>
+<entry field="true" id="31" symbol="&lt;globals/BreathingView/&lt;&gt;_tickCount&gt;"/>
+<entry id="45" method="true" symbol="drawStat"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="7" object="true" symbol="BreatheDayApp"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
 <entry id="8388987" method="true" symbol="vibrate"/>
-<entry field="true" id="17" symbol="_currentHR"/>
-<entry field="true" id="21" symbol="&lt;globals/BreathingView/&lt;&gt;_hold&gt;"/>
-<entry field="true" id="27" symbol="_startTime"/>
+<entry field="true" id="18" symbol="_currentHR"/>
+<entry field="true" id="22" symbol="&lt;globals/BreathingView/&lt;&gt;_hold&gt;"/>
+<entry field="true" id="28" symbol="_startTime"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry id="51" object="true" symbol="MainMenu"/>
-<entry id="15" object="true" symbol="SummaryView"/>
+<entry id="52" object="true" symbol="MainMenu"/>
+<entry id="16" object="true" symbol="SummaryView"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="16" symbol="&lt;globals/BreathingView/&lt;&gt;_circleRadiusPercent&gt;"/>
+<entry field="true" id="17" symbol="&lt;globals/BreathingView/&lt;&gt;_circleRadiusPercent&gt;"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
-<entry id="11" object="true" symbol="BreathingViewDelegate"/>
+<entry id="12" object="true" symbol="BreathingViewDelegate"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry field="true" id="48" symbol="LauncherIcon"/>
+<entry field="true" id="49" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
-<entry field="true" id="31" symbol="&lt;globals/BreathingView/&lt;&gt;_timer&gt;"/>
+<entry field="true" id="32" symbol="&lt;globals/BreathingView/&lt;&gt;_timer&gt;"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
-<entry id="14" object="true" symbol="SummaryDelegate"/>
-<entry field="true" id="40" symbol="&lt;globals/SummaryView/&lt;&gt;_endHR&gt;"/>
+<entry id="10" object="true" symbol="BreatheDayView"/>
+<entry id="15" object="true" symbol="SummaryDelegate"/>
+<entry field="true" id="41" symbol="&lt;globals/SummaryView/&lt;&gt;_endHR&gt;"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="8388960" symbol="heartRate"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="10" object="true" symbol="BreathingView"/>
-<entry id="47" method="true" symbol="exitToSummary"/>
+<entry id="11" object="true" symbol="BreathingView"/>
+<entry id="48" method="true" symbol="exitToSummary"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="8388891" symbol="subSport"/>
 <entry field="true" id="8388892" symbol="name"/>
-<entry field="true" id="46" symbol="&lt;globals/BreathingViewDelegate/&lt;&gt;_view&gt;"/>
+<entry field="true" id="47" symbol="&lt;globals/BreathingViewDelegate/&lt;&gt;_view&gt;"/>
 <entry id="9" object="true" symbol="BreatheDayMenuDelegate"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="19" symbol="_cycles"/>
+<entry field="true" id="20" symbol="_cycles"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
 <entry id="8389847" symbol="mesgType"/>
 <entry field="true" id="8389347" symbol="color"/>
-<entry id="58" symbol="fourSevenEight"/>
-<entry id="12" object="true" symbol="ModeMenuDelegate"/>
+<entry id="59" symbol="fourSevenEight"/>
+<entry id="13" object="true" symbol="ModeMenuDelegate"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
-<entry id="36" module="true" symbol="Layouts"/>
+<entry id="37" module="true" symbol="Layouts"/>
 <entry id="8388636" module="true" symbol="Attention"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="26" symbol="_startHR"/>
-<entry field="true" id="39" symbol="&lt;globals/SummaryView/&lt;&gt;_duration&gt;"/>
+<entry field="true" id="27" symbol="_startHR"/>
+<entry field="true" id="40" symbol="&lt;globals/SummaryView/&lt;&gt;_duration&gt;"/>
 <entry id="8388635" module="true" symbol="Application"/>
 <entry field="true" id="8389642" symbol="title"/>
-<entry id="59" symbol="free"/>
-<entry id="43" method="true" symbol="drawHRScale"/>
-<entry field="true" id="54" symbol="menu_label_2"/>
-<entry field="true" id="53" symbol="menu_label_1"/>
+<entry id="60" symbol="free"/>
+<entry id="44" method="true" symbol="drawHRScale"/>
+<entry field="true" id="55" symbol="menu_label_2"/>
+<entry field="true" id="54" symbol="menu_label_1"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436072" name="vibeProfile" stackId="1" startPc="268436022"/>
-<entry endPc="268436089" name="e" stackId="2" startPc="268436079"/>
-<entry endPc="268436148" name="info" stackId="1" startPc="268436102"/>
-<entry endPc="268436278" name="calmness" stackId="1" startPc="268436222"/>
-<entry endPc="268436629" name="totalTicks" stackId="2" startPc="268436319"/>
-<entry endPc="268436629" name="currentFullCycles" stackId="3" startPc="268436319"/>
-<entry endPc="268436629" name="currentTickInCycle" stackId="4" startPc="268436319"/>
-<entry endPc="268436629" name="second" stackId="5" startPc="268436319"/>
-<entry endPc="268436606" name="exhaleTime" stackId="6" startPc="268436522"/>
-<entry arg="true" endPc="268437088" name="modeId" stackId="1" startPc="268436642"/>
-<entry endPc="268437087" name="subSportType" stackId="2" startPc="268436645"/>
-<entry arg="true" endPc="268437718" name="dc" stackId="1" startPc="268437104"/>
-<entry endPc="268437717" name="w" stackId="2" startPc="268437107"/>
-<entry endPc="268437717" name="h" stackId="3" startPc="268437107"/>
-<entry endPc="268437428" name="totalSec" stackId="4" startPc="268437159"/>
-<entry endPc="268437428" name="timeStr" stackId="5" startPc="268437159"/>
-<entry endPc="268437717" name="maxRadius" stackId="6" startPc="268437432"/>
-<entry endPc="268437717" name="minRadius" stackId="7" startPc="268437432"/>
-<entry endPc="268437717" name="currentRadius" stackId="8" startPc="268437432"/>
-<entry arg="true" endPc="268437823" name="item" stackId="1" startPc="268437752"/>
-<entry endPc="268437822" name="id" stackId="2" startPc="268437755"/>
-<entry endPc="268437822" name="view" stackId="3" startPc="268437755"/>
-<entry endPc="268438052" name="diff" stackId="1" startPc="268437931"/>
-<entry endPc="268438052" name="percentDrop" stackId="2" startPc="268437931"/>
-<entry arg="true" endPc="268438105" name="seconds" stackId="1" startPc="268438053"/>
-<entry endPc="268438105" name="min" stackId="2" startPc="268438056"/>
-<entry endPc="268438105" name="sec" stackId="3" startPc="268438056"/>
-<entry arg="true" endPc="268438156" name="duration" stackId="1" startPc="268438106"/>
-<entry arg="true" endPc="268438156" name="cycles" stackId="2" startPc="268438106"/>
-<entry arg="true" endPc="268438156" name="startHR" stackId="3" startPc="268438106"/>
-<entry arg="true" endPc="268438156" name="endHR" stackId="4" startPc="268438106"/>
-<entry arg="true" endPc="268438571" name="dc" stackId="1" startPc="268438157"/>
-<entry endPc="268438570" name="w" stackId="2" startPc="268438160"/>
-<entry endPc="268438570" name="h" stackId="3" startPc="268438160"/>
-<entry endPc="268438570" name="resultText" stackId="4" startPc="268438160"/>
-<entry endPc="268438570" name="resultColor" stackId="5" startPc="268438160"/>
-<entry arg="true" endPc="268438842" name="dc" stackId="1" startPc="268438572"/>
-<entry arg="true" endPc="268438842" name="x" stackId="2" startPc="268438572"/>
-<entry arg="true" endPc="268438842" name="y" stackId="3" startPc="268438572"/>
-<entry arg="true" endPc="268438842" name="start" stackId="4" startPc="268438572"/>
-<entry arg="true" endPc="268438842" name="end" stackId="5" startPc="268438572"/>
-<entry endPc="268438841" name="barWidth" stackId="6" startPc="268438575"/>
-<entry endPc="268438841" name="endColor" stackId="7" startPc="268438575"/>
-<entry arg="true" endPc="268438921" name="dc" stackId="1" startPc="268438843"/>
-<entry arg="true" endPc="268438921" name="x" stackId="2" startPc="268438843"/>
-<entry arg="true" endPc="268438921" name="y" stackId="3" startPc="268438843"/>
-<entry arg="true" endPc="268438921" name="label" stackId="4" startPc="268438843"/>
-<entry arg="true" endPc="268438921" name="value" stackId="5" startPc="268438843"/>
-<entry arg="true" endPc="268438988" name="item" stackId="1" startPc="268438922"/>
-<entry arg="true" endPc="268439038" name="view" stackId="1" startPc="268439015"/>
-<entry endPc="268439179" name="durationMs" stackId="1" startPc="268439042"/>
-<entry endPc="268439179" name="durationSec" stackId="2" startPc="268439042"/>
-<entry endPc="268439179" name="cyclesCompleted" stackId="3" startPc="268439042"/>
-<entry endPc="268439179" name="startHR" stackId="4" startPc="268439042"/>
-<entry endPc="268439179" name="endHR" stackId="5" startPc="268439042"/>
-<entry arg="true" endPc="268439444" name="dc" stackId="1" startPc="268439192"/>
-<entry endPc="268439444" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439203"/>
-<entry endPc="268439444" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268439203"/>
-<entry endPc="268439444" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268439203"/>
+<entry endPc="268436084" name="vibeProfile" stackId="1" startPc="268436034"/>
+<entry endPc="268436101" name="e" stackId="2" startPc="268436091"/>
+<entry endPc="268436160" name="info" stackId="1" startPc="268436114"/>
+<entry endPc="268436290" name="calmness" stackId="1" startPc="268436234"/>
+<entry endPc="268436641" name="totalTicks" stackId="2" startPc="268436331"/>
+<entry endPc="268436641" name="currentFullCycles" stackId="3" startPc="268436331"/>
+<entry endPc="268436641" name="currentTickInCycle" stackId="4" startPc="268436331"/>
+<entry endPc="268436641" name="second" stackId="5" startPc="268436331"/>
+<entry endPc="268436618" name="exhaleTime" stackId="6" startPc="268436534"/>
+<entry arg="true" endPc="268437100" name="modeId" stackId="1" startPc="268436654"/>
+<entry endPc="268437099" name="subSportType" stackId="2" startPc="268436657"/>
+<entry arg="true" endPc="268437730" name="dc" stackId="1" startPc="268437116"/>
+<entry endPc="268437729" name="w" stackId="2" startPc="268437119"/>
+<entry endPc="268437729" name="h" stackId="3" startPc="268437119"/>
+<entry endPc="268437440" name="totalSec" stackId="4" startPc="268437171"/>
+<entry endPc="268437440" name="timeStr" stackId="5" startPc="268437171"/>
+<entry endPc="268437729" name="maxRadius" stackId="6" startPc="268437444"/>
+<entry endPc="268437729" name="minRadius" stackId="7" startPc="268437444"/>
+<entry endPc="268437729" name="currentRadius" stackId="8" startPc="268437444"/>
+<entry arg="true" endPc="268437835" name="item" stackId="1" startPc="268437764"/>
+<entry endPc="268437834" name="id" stackId="2" startPc="268437767"/>
+<entry endPc="268437834" name="view" stackId="3" startPc="268437767"/>
+<entry arg="true" endPc="268437902" name="item" stackId="1" startPc="268437836"/>
+<entry arg="true" endPc="268437953" name="dc" stackId="1" startPc="268437918"/>
+<entry arg="true" endPc="268437987" name="dc" stackId="1" startPc="268437969"/>
+<entry endPc="268438216" name="diff" stackId="1" startPc="268438095"/>
+<entry endPc="268438216" name="percentDrop" stackId="2" startPc="268438095"/>
+<entry arg="true" endPc="268438269" name="seconds" stackId="1" startPc="268438217"/>
+<entry endPc="268438269" name="min" stackId="2" startPc="268438220"/>
+<entry endPc="268438269" name="sec" stackId="3" startPc="268438220"/>
+<entry arg="true" endPc="268438320" name="duration" stackId="1" startPc="268438270"/>
+<entry arg="true" endPc="268438320" name="cycles" stackId="2" startPc="268438270"/>
+<entry arg="true" endPc="268438320" name="startHR" stackId="3" startPc="268438270"/>
+<entry arg="true" endPc="268438320" name="endHR" stackId="4" startPc="268438270"/>
+<entry arg="true" endPc="268438669" name="dc" stackId="1" startPc="268438321"/>
+<entry endPc="268438668" name="w" stackId="2" startPc="268438324"/>
+<entry endPc="268438668" name="h" stackId="3" startPc="268438324"/>
+<entry endPc="268438668" name="resultText" stackId="4" startPc="268438324"/>
+<entry endPc="268438668" name="resultColor" stackId="5" startPc="268438324"/>
+<entry arg="true" endPc="268438940" name="dc" stackId="1" startPc="268438670"/>
+<entry arg="true" endPc="268438940" name="x" stackId="2" startPc="268438670"/>
+<entry arg="true" endPc="268438940" name="y" stackId="3" startPc="268438670"/>
+<entry arg="true" endPc="268438940" name="start" stackId="4" startPc="268438670"/>
+<entry arg="true" endPc="268438940" name="end" stackId="5" startPc="268438670"/>
+<entry endPc="268438939" name="barWidth" stackId="6" startPc="268438673"/>
+<entry endPc="268438939" name="endColor" stackId="7" startPc="268438673"/>
+<entry arg="true" endPc="268439019" name="dc" stackId="1" startPc="268438941"/>
+<entry arg="true" endPc="268439019" name="x" stackId="2" startPc="268438941"/>
+<entry arg="true" endPc="268439019" name="y" stackId="3" startPc="268438941"/>
+<entry arg="true" endPc="268439019" name="label" stackId="4" startPc="268438941"/>
+<entry arg="true" endPc="268439019" name="value" stackId="5" startPc="268438941"/>
+<entry arg="true" endPc="268439054" name="view" stackId="1" startPc="268439031"/>
+<entry endPc="268439195" name="durationMs" stackId="1" startPc="268439058"/>
+<entry endPc="268439195" name="durationSec" stackId="2" startPc="268439058"/>
+<entry endPc="268439195" name="cyclesCompleted" stackId="3" startPc="268439058"/>
+<entry endPc="268439195" name="startHR" stackId="4" startPc="268439058"/>
+<entry endPc="268439195" name="endHR" stackId="5" startPc="268439058"/>
+<entry arg="true" endPc="268439460" name="dc" stackId="1" startPc="268439208"/>
+<entry endPc="268439460" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439219"/>
+<entry endPc="268439460" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268439219"/>
+<entry endPc="268439460" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268439219"/>
 </localVars>
 <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B3906-00"/>
 <annotations>
@@ -444,21 +451,22 @@
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/BreatheDayDelegate" offset="197" parentId="globals" symbolId="BreatheDayDelegate" type="class"/>
-<dataEntry label="globals/ModeMenuView" offset="250" parentId="globals" symbolId="ModeMenuView" type="class"/>
-<dataEntry label="globals/BreathingView" offset="294" parentId="globals" symbolId="BreathingView" type="class"/>
-<dataEntry label="globals/ModeMenuDelegate" offset="545" parentId="globals" symbolId="ModeMenuDelegate" type="class"/>
-<dataEntry label="globals/BreatheDayApp" offset="607" parentId="globals" symbolId="BreatheDayApp" type="class"/>
-<dataEntry label="globals/Rez" offset="678" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/SummaryDelegate" offset="740" parentId="globals" symbolId="SummaryDelegate" type="class"/>
-<dataEntry label="globals/SummaryView" offset="793" parentId="globals" symbolId="SummaryView" type="class"/>
-<dataEntry label="globals/BreatheDayMenuDelegate" offset="918" parentId="globals" symbolId="BreatheDayMenuDelegate" type="class"/>
-<dataEntry label="globals/BreathingViewDelegate" offset="971" parentId="globals" symbolId="BreathingViewDelegate" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="1051" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="1095" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="1130" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1165" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/Menus/MainMenu" offset="1227" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry label="globals/BreatheDayDelegate" offset="206" parentId="globals" symbolId="BreatheDayDelegate" type="class"/>
+<dataEntry label="globals/ModeMenuView" offset="259" parentId="globals" symbolId="ModeMenuView" type="class"/>
+<dataEntry label="globals/BreathingView" offset="303" parentId="globals" symbolId="BreathingView" type="class"/>
+<dataEntry label="globals/ModeMenuDelegate" offset="554" parentId="globals" symbolId="ModeMenuDelegate" type="class"/>
+<dataEntry label="globals/Rez" offset="616" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/BreatheDayMenuDelegate" offset="678" parentId="globals" symbolId="BreatheDayMenuDelegate" type="class"/>
+<dataEntry label="globals/BreatheDayView" offset="731" parentId="globals" symbolId="BreatheDayView" type="class"/>
+<dataEntry label="globals/BreatheDayApp" offset="811" parentId="globals" symbolId="BreatheDayApp" type="class"/>
+<dataEntry label="globals/SummaryDelegate" offset="882" parentId="globals" symbolId="SummaryDelegate" type="class"/>
+<dataEntry label="globals/SummaryView" offset="935" parentId="globals" symbolId="SummaryView" type="class"/>
+<dataEntry label="globals/BreathingViewDelegate" offset="1060" parentId="globals" symbolId="BreathingViewDelegate" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1140" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1184" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1219" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1254" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="1316" parentId="Menus" symbolId="MainMenu" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="BreatheDayDelegate" startPc="268435460">
@@ -476,81 +484,70 @@
 <functionEntry accessMode="public" endPc="268435528" name="getApp" startPc="268435508">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435540" name="&lt;init&gt;" parent="BreatheDayApp" startPc="268435529">
+<functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="Rez" startPc="268435529">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435560" name="&lt;init&gt;" parent="Rez" startPc="268435541">
+<functionEntry accessMode="public" endPc="268435560" name="&lt;init&gt;" parent="BreatheDayMenuDelegate" startPc="268435549">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435572" name="&lt;init&gt;" parent="SummaryDelegate" startPc="268435561">
+<functionEntry accessMode="public" endPc="268435572" name="&lt;init&gt;" parent="BreatheDayView" startPc="268435561">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435584" name="&lt;init&gt;" parent="SummaryView" startPc="268435573">
+<functionEntry accessMode="public" endPc="268435584" name="&lt;init&gt;" parent="BreatheDayApp" startPc="268435573">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435596" name="&lt;init&gt;" parent="BreatheDayMenuDelegate" startPc="268435585">
+<functionEntry accessMode="public" endPc="268435596" name="&lt;init&gt;" parent="SummaryDelegate" startPc="268435585">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435608" name="&lt;init&gt;" parent="BreathingViewDelegate" startPc="268435597">
+<functionEntry accessMode="public" endPc="268435608" name="&lt;init&gt;" parent="SummaryView" startPc="268435597">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435677" name="onMenu" parent="BreatheDayDelegate" startPc="268435609">
+<functionEntry accessMode="public" endPc="268435620" name="&lt;init&gt;" parent="BreathingViewDelegate" startPc="268435609">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435692" name="initialize" parent="BreatheDayDelegate" startPc="268435678">
+<functionEntry accessMode="public" endPc="268435689" name="onMenu" parent="BreatheDayDelegate" startPc="268435621">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435909" name="initialize" parent="ModeMenuView" startPc="268435693">
+<functionEntry accessMode="public" endPc="268435704" name="initialize" parent="BreatheDayDelegate" startPc="268435690">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435970" name="stopAndSaveSession" parent="BreathingView" startPc="268435910">
+<functionEntry accessMode="public" endPc="268435921" name="initialize" parent="ModeMenuView" startPc="268435705">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436003" name="onShow" parent="BreathingView" startPc="268435971">
+<functionEntry accessMode="public" endPc="268435982" name="stopAndSaveSession" parent="BreathingView" startPc="268435922">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436098" name="triggerVibe" parent="BreathingView" startPc="268436004">
+<functionEntry accessMode="public" endPc="268436015" name="onShow" parent="BreathingView" startPc="268435983">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436148" name="getHeartRate" parent="BreathingView" startPc="268436099">
+<functionEntry accessMode="public" endPc="268436110" name="triggerVibe" parent="BreathingView" startPc="268436016">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436641" name="onTimerTick" parent="BreathingView" startPc="268436149">
+<functionEntry accessMode="public" endPc="268436160" name="getHeartRate" parent="BreathingView" startPc="268436111">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437088" name="initialize" parent="BreathingView" startPc="268436642">
+<functionEntry accessMode="public" endPc="268436653" name="onTimerTick" parent="BreathingView" startPc="268436161">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437100" name="initialize" parent="BreathingView" startPc="268436654">
 <param id="modeId"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437103" name="onHide" parent="BreathingView" startPc="268437089">
+<functionEntry accessMode="public" endPc="268437115" name="onHide" parent="BreathingView" startPc="268437101">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437718" name="onUpdate" parent="BreathingView" startPc="268437104">
+<functionEntry accessMode="public" endPc="268437730" name="onUpdate" parent="BreathingView" startPc="268437116">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437736" name="onBack" parent="ModeMenuDelegate" startPc="268437719">
+<functionEntry accessMode="public" endPc="268437748" name="onBack" parent="ModeMenuDelegate" startPc="268437731">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437751" name="initialize" parent="ModeMenuDelegate" startPc="268437737">
+<functionEntry accessMode="public" endPc="268437763" name="initialize" parent="ModeMenuDelegate" startPc="268437749">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437823" name="onSelect" parent="ModeMenuDelegate" startPc="268437752">
+<functionEntry accessMode="public" endPc="268437835" name="onSelect" parent="ModeMenuDelegate" startPc="268437764">
 <param id="item"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268437826" name="onStart" parent="BreatheDayApp" startPc="268437824">
-<param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268437875" name="getInitialView" parent="BreatheDayApp" startPc="268437827">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268437890" name="initialize" parent="BreatheDayApp" startPc="268437876">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268437893" name="onStop" parent="BreatheDayApp" startPc="268437891">
-<param id="state"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -565,31 +562,69 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437912" name="onBack" parent="SummaryDelegate" startPc="268437894">
+<functionEntry accessMode="public" endPc="268437902" name="onMenuItem" parent="BreatheDayMenuDelegate" startPc="268437836">
+<param id="item"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437927" name="initialize" parent="SummaryDelegate" startPc="268437913">
+<functionEntry accessMode="public" endPc="268437917" name="initialize" parent="BreatheDayMenuDelegate" startPc="268437903">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438052" name="calculateEffectiveness" parent="SummaryView" startPc="268437928">
+<functionEntry accessMode="public" name="onShow" parent="BreatheDayView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438105" name="formatTime" parent="SummaryView" startPc="268438053">
+<functionEntry accessMode="public" endPc="268437953" name="onLayout" parent="BreatheDayView" startPc="268437918">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437968" name="initialize" parent="BreatheDayView" startPc="268437954">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="BreatheDayView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437987" name="onUpdate" parent="BreatheDayView" startPc="268437969">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437990" name="onStart" parent="BreatheDayApp" startPc="268437988">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438039" name="getInitialView" parent="BreatheDayApp" startPc="268437991">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438054" name="initialize" parent="BreatheDayApp" startPc="268438040">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438057" name="onStop" parent="BreatheDayApp" startPc="268438055">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438076" name="onBack" parent="SummaryDelegate" startPc="268438058">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438091" name="initialize" parent="SummaryDelegate" startPc="268438077">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438216" name="calculateEffectiveness" parent="SummaryView" startPc="268438092">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438269" name="formatTime" parent="SummaryView" startPc="268438217">
 <param id="seconds"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438156" name="initialize" parent="SummaryView" startPc="268438106">
+<functionEntry accessMode="public" endPc="268438320" name="initialize" parent="SummaryView" startPc="268438270">
 <param id="duration"/>
 <param id="cycles"/>
 <param id="startHR"/>
 <param id="endHR"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438571" name="onUpdate" parent="SummaryView" startPc="268438157">
+<functionEntry accessMode="public" endPc="268438669" name="onUpdate" parent="SummaryView" startPc="268438321">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438842" name="drawHRScale" parent="SummaryView" startPc="268438572">
+<functionEntry accessMode="public" endPc="268438940" name="drawHRScale" parent="SummaryView" startPc="268438670">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
@@ -597,7 +632,7 @@
 <param id="end"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438921" name="drawStat" parent="SummaryView" startPc="268438843">
+<functionEntry accessMode="public" endPc="268439019" name="drawStat" parent="SummaryView" startPc="268438941">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
@@ -605,34 +640,27 @@
 <param id="value"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438988" name="onMenuItem" parent="BreatheDayMenuDelegate" startPc="268438922">
-<param id="item"/>
+<functionEntry accessMode="public" endPc="268439030" name="onBack" parent="BreathingViewDelegate" startPc="268439020">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439003" name="initialize" parent="BreatheDayMenuDelegate" startPc="268438989">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268439014" name="onBack" parent="BreathingViewDelegate" startPc="268439004">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268439038" name="initialize" parent="BreathingViewDelegate" startPc="268439015">
+<functionEntry accessMode="public" endPc="268439054" name="initialize" parent="BreathingViewDelegate" startPc="268439031">
 <param id="view"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439180" name="exitToSummary" parent="BreathingViewDelegate" startPc="268439039">
+<functionEntry accessMode="public" endPc="268439196" name="exitToSummary" parent="BreathingViewDelegate" startPc="268439055">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439191" name="onSelect" parent="BreathingViewDelegate" startPc="268439181">
+<functionEntry accessMode="public" endPc="268439207" name="onSelect" parent="BreathingViewDelegate" startPc="268439197">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439444" name="MainLayout" parent="Layouts" startPc="268439192">
+<functionEntry accessMode="public" endPc="268439460" name="MainLayout" parent="Layouts" startPc="268439208">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439456" name="&lt;init&gt;" parent="MainMenu" startPc="268439445">
+<functionEntry accessMode="public" endPc="268439472" name="&lt;init&gt;" parent="MainMenu" startPc="268439461">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439561" name="initialize" parent="MainMenu" startPc="268439457">
+<functionEntry accessMode="public" endPc="268439577" name="initialize" parent="MainMenu" startPc="268439473">
 <documentation/>
 </functionEntry>
 </functions>
