@@ -181,28 +181,33 @@
 <entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="35" lineNum="15" parent="globals/BreatheDayMenuDelegate" pc="268438119" symbol="onMenuItem"/>
 <entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="36" lineNum="7" parent="globals/BreatheDayMenuDelegate" pc="268438141" symbol="initialize"/>
 <entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreatheDayMenuDelegate.mc" id="36" lineNum="8" parent="globals/BreatheDayMenuDelegate" pc="268438143" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="13" parent="globals/BreathingViewDelegate" pc="268438156" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="15" parent="globals/BreathingViewDelegate" pc="268438159" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="16" parent="globals/BreathingViewDelegate" pc="268438182" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="19" parent="globals/BreathingViewDelegate" pc="268438190" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="20" parent="globals/BreathingViewDelegate" pc="268438202" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="21" parent="globals/BreathingViewDelegate" pc="268438214" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="24" parent="globals/BreathingViewDelegate" pc="268438226" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="30" parent="globals/BreathingViewDelegate" pc="268438285" symbol="onBack"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="38" lineNum="7" parent="globals/BreathingViewDelegate" pc="268438287" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="38" lineNum="8" parent="globals/BreathingViewDelegate" pc="268438289" symbol="initialize"/>
-<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="38" lineNum="9" parent="globals/BreathingViewDelegate" pc="268438301" symbol="initialize"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="39" lineNum="14" parent="globals/Rez/Layouts" pc="268438311" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="39" lineNum="15" parent="globals/Rez/Layouts" pc="268438322" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="39" lineNum="17" parent="globals/Rez/Layouts" pc="268438331" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="39" lineNum="19" parent="globals/Rez/Layouts" pc="268438434" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="39" lineNum="20" parent="globals/Rez/Layouts" pc="268438518" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="39" lineNum="22" parent="globals/Rez/Layouts" pc="268438549" symbol="MainLayout"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="40" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268438564" symbol="&lt;init&gt;"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268438576" symbol="initialize"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268438578" symbol="initialize"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268438590" symbol="initialize"/>
-<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268438635" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="20" parent="globals/BreathingViewDelegate" pc="268438156" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="21" parent="globals/BreathingViewDelegate" pc="268438158" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="37" lineNum="22" parent="globals/BreathingViewDelegate" pc="268438165" symbol="onBack"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="38" lineNum="7" parent="globals/BreathingViewDelegate" pc="268438167" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="38" lineNum="8" parent="globals/BreathingViewDelegate" pc="268438169" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="38" lineNum="9" parent="globals/BreathingViewDelegate" pc="268438181" symbol="initialize"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="39" lineNum="26" parent="globals/BreathingViewDelegate" pc="268438191" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="39" lineNum="27" parent="globals/BreathingViewDelegate" pc="268438194" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="39" lineNum="28" parent="globals/BreathingViewDelegate" pc="268438217" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="39" lineNum="30" parent="globals/BreathingViewDelegate" pc="268438225" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="39" lineNum="31" parent="globals/BreathingViewDelegate" pc="268438237" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="39" lineNum="32" parent="globals/BreathingViewDelegate" pc="268438249" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="39" lineNum="35" parent="globals/BreathingViewDelegate" pc="268438261" symbol="exitToSummary"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="40" lineNum="13" parent="globals/BreathingViewDelegate" pc="268438321" symbol="onSelect"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="40" lineNum="14" parent="globals/BreathingViewDelegate" pc="268438323" symbol="onSelect"/>
+<entry filename="C:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\source\\BreathingViewDelegate.mc" id="40" lineNum="15" parent="globals/BreathingViewDelegate" pc="268438330" symbol="onSelect"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="14" parent="globals/Rez/Layouts" pc="268438332" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="15" parent="globals/Rez/Layouts" pc="268438343" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="17" parent="globals/Rez/Layouts" pc="268438352" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="19" parent="globals/Rez/Layouts" pc="268438455" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="20" parent="globals/Rez/Layouts" pc="268438539" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="41" lineNum="22" parent="globals/Rez/Layouts" pc="268438570" symbol="MainLayout"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="42" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268438585" symbol="&lt;init&gt;"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="43" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268438597" symbol="initialize"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="43" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268438599" symbol="initialize"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="43" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268438611" symbol="initialize"/>
+<entry filename="c:\\Users\\Admin\\Desktop\\garmin app\\fenix7-breathing-app\\BreatheDay\\bin\\gen\\006-B3906-00\\source\\Rez.mcgen" id="43" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268438656" symbol="initialize"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -210,21 +215,21 @@
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="5" module="true" symbol="globals/Rez/Menus"/>
 <entry field="true" id="24" symbol="&lt;globals/BreathingView/&lt;&gt;_mode&gt;"/>
-<entry id="51" symbol="box"/>
+<entry id="52" symbol="box"/>
 <entry field="true" id="35" symbol="&lt;globals/SummaryView/&lt;&gt;_cycles&gt;"/>
 <entry id="31" method="true" symbol="onTimerTick"/>
-<entry id="44" method="true" symbol="MainLayout"/>
+<entry id="45" method="true" symbol="MainLayout"/>
 <entry id="8" object="true" symbol="BreatheDayDelegate"/>
 <entry field="true" id="38" symbol="&lt;globals/SummaryView/&lt;&gt;_startHR&gt;"/>
 <entry field="true" id="18" symbol="&lt;globals/BreathingView/&lt;&gt;_cycleTotal&gt;"/>
 <entry id="32" method="true" symbol="triggerVibe"/>
 <entry field="true" id="20" symbol="&lt;globals/BreathingView/&lt;&gt;_exhale&gt;"/>
 <entry field="true" id="23" symbol="&lt;globals/BreathingView/&lt;&gt;_lastCycleCount&gt;"/>
-<entry id="50" symbol="even"/>
+<entry id="51" symbol="even"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="22" symbol="&lt;globals/BreathingView/&lt;&gt;_inhale&gt;"/>
 <entry field="true" id="27" symbol="&lt;globals/BreathingView/&lt;&gt;_statusText&gt;"/>
-<entry field="true" id="46" symbol="AppName"/>
+<entry field="true" id="47" symbol="AppName"/>
 <entry id="6" module="true" symbol="globals/Rez/Strings"/>
 <entry id="40" method="true" symbol="formatTime"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
@@ -233,16 +238,16 @@
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389081" method="true" symbol="onBack"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
-<entry field="true" id="49" symbol="prompt"/>
-<entry field="true" id="43" symbol="id_monkey"/>
+<entry field="true" id="50" symbol="prompt"/>
+<entry field="true" id="44" symbol="id_monkey"/>
 <entry id="13" object="true" symbol="ModeMenuView"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="55" symbol="item_2"/>
-<entry id="54" symbol="item_1"/>
+<entry id="56" symbol="item_2"/>
+<entry id="55" symbol="item_1"/>
 <entry id="34" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
 <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
@@ -256,7 +261,7 @@
 <entry field="true" id="21" symbol="&lt;globals/BreathingView/&lt;&gt;_hold&gt;"/>
 <entry field="true" id="26" symbol="_startTime"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry id="45" object="true" symbol="MainMenu"/>
+<entry id="46" object="true" symbol="MainMenu"/>
 <entry id="15" object="true" symbol="SummaryView"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry field="true" id="16" symbol="&lt;globals/BreathingView/&lt;&gt;_circleRadiusPercent&gt;"/>
@@ -264,7 +269,7 @@
 <entry id="11" object="true" symbol="BreathingViewDelegate"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry field="true" id="42" symbol="LauncherIcon"/>
+<entry field="true" id="43" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry field="true" id="29" symbol="&lt;globals/BreathingView/&lt;&gt;_timer&gt;"/>
 <entry id="8389123" method="true" symbol="onShow"/>
@@ -276,6 +281,7 @@
 <entry field="true" id="8388960" symbol="heartRate"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="10" object="true" symbol="BreathingView"/>
+<entry id="42" method="true" symbol="exitToSummary"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="41" symbol="&lt;globals/BreathingViewDelegate/&lt;&gt;_view&gt;"/>
 <entry id="9" object="true" symbol="BreatheDayMenuDelegate"/>
@@ -284,7 +290,7 @@
 <entry field="true" id="19" symbol="_cycles"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
 <entry field="true" id="8389347" symbol="color"/>
-<entry id="52" symbol="fourSevenEight"/>
+<entry id="53" symbol="fourSevenEight"/>
 <entry id="12" object="true" symbol="ModeMenuDelegate"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
 <entry id="33" module="true" symbol="Layouts"/>
@@ -294,9 +300,9 @@
 <entry field="true" id="36" symbol="&lt;globals/SummaryView/&lt;&gt;_duration&gt;"/>
 <entry id="8388635" module="true" symbol="Application"/>
 <entry field="true" id="8389642" symbol="title"/>
-<entry id="53" symbol="free"/>
-<entry field="true" id="48" symbol="menu_label_2"/>
-<entry field="true" id="47" symbol="menu_label_1"/>
+<entry id="54" symbol="free"/>
+<entry field="true" id="49" symbol="menu_label_2"/>
+<entry field="true" id="48" symbol="menu_label_1"/>
 </symbolTable>
 <localVars>
 <entry endPc="268436011" name="vibeProfile" stackId="1" startPc="268435961"/>
@@ -335,16 +341,16 @@
 <entry arg="true" endPc="268438073" name="label" stackId="4" startPc="268437995"/>
 <entry arg="true" endPc="268438073" name="value" stackId="5" startPc="268437995"/>
 <entry arg="true" endPc="268438140" name="item" stackId="1" startPc="268438074"/>
-<entry endPc="268438286" name="durationMs" stackId="1" startPc="268438159"/>
-<entry endPc="268438286" name="durationSec" stackId="2" startPc="268438159"/>
-<entry endPc="268438286" name="cyclesCompleted" stackId="3" startPc="268438159"/>
-<entry endPc="268438286" name="startHR" stackId="4" startPc="268438159"/>
-<entry endPc="268438286" name="endHR" stackId="5" startPc="268438159"/>
-<entry arg="true" endPc="268438310" name="view" stackId="1" startPc="268438287"/>
-<entry arg="true" endPc="268438563" name="dc" stackId="1" startPc="268438311"/>
-<entry endPc="268438563" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438322"/>
-<entry endPc="268438563" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268438322"/>
-<entry endPc="268438563" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268438322"/>
+<entry arg="true" endPc="268438190" name="view" stackId="1" startPc="268438167"/>
+<entry endPc="268438319" name="durationMs" stackId="1" startPc="268438194"/>
+<entry endPc="268438319" name="durationSec" stackId="2" startPc="268438194"/>
+<entry endPc="268438319" name="cyclesCompleted" stackId="3" startPc="268438194"/>
+<entry endPc="268438319" name="startHR" stackId="4" startPc="268438194"/>
+<entry endPc="268438319" name="endHR" stackId="5" startPc="268438194"/>
+<entry arg="true" endPc="268438584" name="dc" stackId="1" startPc="268438332"/>
+<entry endPc="268438584" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438343"/>
+<entry endPc="268438584" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268438343"/>
+<entry endPc="268438584" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268438343"/>
 </localVars>
 <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B3906-00"/>
 <annotations>
@@ -367,11 +373,11 @@
 <dataEntry label="globals/SummaryView" offset="766" parentId="globals" symbolId="SummaryView" type="class"/>
 <dataEntry label="globals/BreatheDayMenuDelegate" offset="873" parentId="globals" symbolId="BreatheDayMenuDelegate" type="class"/>
 <dataEntry label="globals/BreathingViewDelegate" offset="926" parentId="globals" symbolId="BreathingViewDelegate" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="988" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="1032" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="1067" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="1102" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/Menus/MainMenu" offset="1164" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="1006" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="1050" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="1085" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1120" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="1182" parentId="Menus" symbolId="MainMenu" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="BreatheDayDelegate" startPc="268435460">
@@ -511,21 +517,27 @@
 <functionEntry accessMode="public" endPc="268438155" name="initialize" parent="BreatheDayMenuDelegate" startPc="268438141">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438286" name="onBack" parent="BreathingViewDelegate" startPc="268438156">
+<functionEntry accessMode="public" endPc="268438166" name="onBack" parent="BreathingViewDelegate" startPc="268438156">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438310" name="initialize" parent="BreathingViewDelegate" startPc="268438287">
+<functionEntry accessMode="public" endPc="268438190" name="initialize" parent="BreathingViewDelegate" startPc="268438167">
 <param id="view"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438563" name="MainLayout" parent="Layouts" startPc="268438311">
+<functionEntry accessMode="public" endPc="268438320" name="exitToSummary" parent="BreathingViewDelegate" startPc="268438191">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438331" name="onSelect" parent="BreathingViewDelegate" startPc="268438321">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438584" name="MainLayout" parent="Layouts" startPc="268438332">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438575" name="&lt;init&gt;" parent="MainMenu" startPc="268438564">
+<functionEntry accessMode="public" endPc="268438596" name="&lt;init&gt;" parent="MainMenu" startPc="268438585">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438680" name="initialize" parent="MainMenu" startPc="268438576">
+<functionEntry accessMode="public" endPc="268438701" name="initialize" parent="MainMenu" startPc="268438597">
 <documentation/>
 </functionEntry>
 </functions>

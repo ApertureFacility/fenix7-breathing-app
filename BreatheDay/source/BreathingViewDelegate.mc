@@ -9,24 +9,33 @@ class BreathingViewDelegate extends WatchUi.BehaviorDelegate {
         _view = view;
     }
 
-    // Вызывается при нажатии кнопки Back
+    // Обработка кнопки START / STOP (и касания экрана)
+    function onSelect() {
+        exitToSummary();
+        return true;
+    }
+
+    // Если хотите оставить возможность выйти и по кнопке BACK, оставьте этот метод.
+    // Если хотите, чтобы BACK ничего не делала во время упражнения — удалите его.
     function onBack() {
-        // 1. Считаем длительность
+        exitToSummary();
+        return true;
+    }
+
+    // Вынесли общую логику перехода в отдельную функцию
+    function exitToSummary() {
         var durationMs = System.getTimer() - _view._startTime;
         var durationSec = durationMs / 1000;
 
-        
         var cyclesCompleted = _view._cycles;
         var startHR = _view._startHR;
         var endHR = _view._currentHR;
 
-        // 3. Переходим на экран итогов, передавая ВСЕ 4 аргумента
+        // Переходим на экран итогов
         WatchUi.switchToView(
             new SummaryView(durationSec, cyclesCompleted, startHR, endHR), 
             new SummaryDelegate(), 
             WatchUi.SLIDE_DOWN
         );
-        
-        return true; 
     }
 }
