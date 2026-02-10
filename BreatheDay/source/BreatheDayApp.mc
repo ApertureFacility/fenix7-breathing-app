@@ -16,7 +16,7 @@ class BreatheDayApp extends Application.AppBase {
     function onStop(state as Dictionary?) as Void {
     }
 
-  // Возвращаем наше новое меню и его делегат как стартовый экран
+ 
 function getInitialView() as [Views] or [Views, InputDelegates] {
     return [ new ModeMenuView(), new ModeMenuDelegate() ];
 }

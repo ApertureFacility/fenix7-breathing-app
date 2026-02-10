@@ -2,75 +2,278 @@
 using Toybox.WatchUi;
 [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; ]
 using Toybox.Graphics;
-[ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 4; @symbol_classdef = [BreathingView,4,6,19]; @symbol_extends<0> = [WatchUi,4,28,35]; @symbol_extends<1> = [View,4,36,40]; ]
+[ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Timer,3,13,18]; ]
+using Toybox.Timer;
+[ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 5; @symbol_classdef = [BreathingView,5,6,19]; @symbol_extends<0> = [WatchUi,5,28,35]; @symbol_extends<1> = [View,5,36,40]; ]
 class BreathingView extends WatchUi.View {
-    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 4; ]
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 4; ]
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 5; ]
     static
     <init> {
     }
     [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 6; @position = 8; @symbol_vardef = [mode,6,8,12]; ]
     var mode;
-    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; @symbol_param<0> = [modeId,8,24,30]; ]
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 7; @position = 8; @symbol_vardef = [timer,7,8,13]; ]
+    var timer;
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 8; @position = 8; @symbol_vardef = [counter,8,8,15]; ]
+    var counter = 0;
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 9; @position = 8; @symbol_vardef = [statusText,9,8,18]; ]
+    var statusText = "Приготовьтесь";
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; @symbol_param<0> = [modeId,11,24,30]; ]
     function initialize(modeId) as Void {
-C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_8_32_11_4_start:
-[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 9 8 ]
-        symbol [ View %tmp.2 9 8 12 ];
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_11_32_17_4_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 12 8 ]
+        symbol [ View %tmp.2 12 8 12 ];
         %tmp.2 = getv ? :View;
-        symbol [ initialize %tmp.3 9 13 23 ];
+        symbol [ initialize %tmp.3 12 13 23 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 10 8 ]
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 13 8 ]
         %tmp.4 = lgetv %modeId;
-        symbol [ modeId %tmp.4 10 15 21 ];
-        symbol [ mode ? 10 8 12 ];
+        symbol [ modeId %tmp.4 13 15 21 ];
+        symbol [ mode ? 13 8 12 ];
         putv self :mode %tmp.4;
-C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_8_32_11_4_stop:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 16 8 ]
+        symbol [ Timer %tmp.7 16 20 25 ];
+        %tmp.7 = getm $.Toybox.Timer;
+        symbol [ Timer %tmp.8 16 26 31 ];
+        %tmp.8 = getv function ? %tmp.7 :Timer;
+        %tmp.5 = newc %tmp.8 ();
+        symbol [ timer ? 16 8 13 ];
+        putv self :timer %tmp.5;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_11_32_17_4_stop:
     }
-    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 13; @symbol_functiondef = [onUpdate,13,13,21]; @symbol_param<0> = [dc,13,22,24]; ]
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 19; @symbol_functiondef = [onShow,19,13,19]; ]
+    function onShow() {
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_19_22_22_4_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 21 8 ]
+        symbol [ timer %tmp.2 21 8 13 ];
+        %tmp.2 = getv ? :timer;
+        symbol [ start %tmp.3 21 14 19 ];
+        %tmp.3 = getv function %tmp.2 :start;
+        %tmp.4 = self;
+        symbol [ method %tmp.5 21 20 26 ];
+        %tmp.5 = getv function %tmp.4 :method;
+        %tmp.7 = const :onTimerTick;
+        symbol [ onTimerTick %tmp.7 21 28 39 const ];
+        %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
+        %tmp.9 = 1000;
+        %tmp.10 = true;
+        invoke %tmp.2 %tmp.3(%tmp.8, %tmp.9, %tmp.10);
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_19_22_22_4_stop:
+    }
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 24; @symbol_functiondef = [onHide,24,13,19]; ]
+    function onHide() {
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_24_22_27_4_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 26 8 ]
+        symbol [ timer %tmp.2 26 8 13 ];
+        %tmp.2 = getv ? :timer;
+        symbol [ stop %tmp.3 26 14 18 ];
+        %tmp.3 = getv function %tmp.2 :stop;
+        invoke %tmp.2 %tmp.3();
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_24_22_27_4_stop:
+    }
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 30; @symbol_functiondef = [onTimerTick,30,13,24]; ]
+    function onTimerTick() {
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_30_27_34_4_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 31 8 ]
+        symbol [ counter %tmp.3 31 8 15 ];
+        %tmp.3 = getv ? :counter;
+        %tmp.4 = add %tmp.3 1;
+        symbol [ counter ? 31 8 15 ];
+        putv self :counter dup %tmp.4;
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 32 8 ]
+        %tmp.5 = self;
+        symbol [ updateBreathingLogic %tmp.6 32 8 28 ];
+        %tmp.6 = getv function %tmp.5 :updateBreathingLogic;
+        invoke %tmp.5 %tmp.6();
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 33 8 ]
+        symbol [ WatchUi %tmp.7 33 8 15 ];
+        %tmp.7 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.8 33 16 29 ];
+        %tmp.8 = getv function %tmp.7 :requestUpdate;
+        invoke %tmp.7 %tmp.8();
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_30_27_34_4_stop:
+    }
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 36; @symbol_functiondef = [updateBreathingLogic,36,13,33]; ]
+    function updateBreathingLogic() {
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_36_36_46_4_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 38 8 ]
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_8_45_8_if_stmt:
+        symbol [ mode %tmp.2 38 12 16 ];
+        %tmp.2 = getv ? :mode;
+        %tmp.4 = const :box;
+        symbol [ box %tmp.4 38 21 24 const ];
+        %tmp.5 = eq %tmp.2 %tmp.4;
+        bf %tmp.5 @C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_8_45_8_if_else_false;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_8_45_8_if_true:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_26_43_8_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 39 12 ]
+        [ "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_26_43_8_start" "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_26_43_8_stop" ]
+        %cycle.1 = local;
+        symbol [ cycle %cycle.1 39 16 21 ];
+        symbol [ counter %tmp.7 39 24 31 ];
+        %tmp.7 = getv ? :counter;
+        %tmp.8 = 12;
+        %tmp.9 = mod %tmp.7 %tmp.8;
+        lputv %cycle.1 %tmp.9;
+        symbol [ cycle %cycle.1 39 16 21 ];
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 40 12 ]
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_40_12_42_41_if_stmt:
+        %tmp.10 = lgetv %cycle.1;
+        symbol [ cycle %tmp.10 40 16 21 ];
+        %tmp.11 = 4;
+        %tmp.12 = lt %tmp.10 %tmp.11;
+        bf %tmp.12 @C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_40_12_42_41_if_false;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_40_12_42_41_if_true:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_40_27_40_50_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 40 29 ]
+        %tmp.13 = "Вдох";
+        symbol [ statusText ? 40 29 39 ];
+        putv self :statusText %tmp.13;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_40_27_40_50_stop:
+        goto @C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_40_12_42_41_if_end;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_40_12_42_41_if_false:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 41 17 ]
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_41_17_42_41_if_stmt:
+        %tmp.14 = lgetv %cycle.1;
+        symbol [ cycle %tmp.14 41 21 26 ];
+        %tmp.15 = 8;
+        %tmp.16 = lt %tmp.14 %tmp.15;
+        bf %tmp.16 @C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_41_17_42_41_if_else_false;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_41_17_42_41_if_true:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_41_32_41_59_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 41 34 ]
+        %tmp.17 = "Задержка";
+        symbol [ statusText ? 41 34 44 ];
+        putv self :statusText %tmp.17;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_41_32_41_59_stop:
+        goto @C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_41_17_42_41_if_end;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_41_17_42_41_if_else_false:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_42_17_42_41_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 42 19 ]
+        %tmp.18 = "Выдох";
+        symbol [ statusText ? 42 19 29 ];
+        putv self :statusText %tmp.18;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_42_17_42_41_stop:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_41_17_42_41_if_end:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_40_12_42_41_if_end:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_26_43_8_stop:
+        goto @C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_8_45_8_if_end;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_8_45_8_if_else_false:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_43_15_45_8_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 44 12 ]
+        %tmp.19 = "Дышите ровно";
+        symbol [ statusText ? 44 12 22 ];
+        putv self :statusText %tmp.19;
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_43_15_45_8_stop:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_38_8_45_8_if_end:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_36_36_46_4_stop:
+    }
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 48; @symbol_functiondef = [onUpdate,48,13,21]; @symbol_param<0> = [dc,48,22,24]; ]
     function onUpdate(dc) {
-C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_13_26_22_4_start:
-[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 14 8 ]
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_48_26_70_4_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 49 8 ]
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 14 8 10 ];
-        symbol [ clear %tmp.2 14 11 16 ];
-        %tmp.2 = getv function %tmp.1 :clear;
-        invoke %tmp.1 %tmp.2();
-[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 15 8 ]
-        %tmp.3 = lgetv %dc;
-        symbol [ dc %tmp.3 15 8 10 ];
-        symbol [ drawText %tmp.4 15 11 19 ];
-        %tmp.4 = getv function %tmp.3 :drawText;
-        %tmp.5 = lgetv %dc;
-        symbol [ dc %tmp.5 16 12 14 ];
-        symbol [ getWidth %tmp.6 16 15 23 ];
-        %tmp.6 = getv function %tmp.5 :getWidth;
-        %tmp.7 = invoke %tmp.5 %tmp.6();
-        %tmp.8 = 2;
-        %tmp.9 = div %tmp.7 %tmp.8;
-        %tmp.10 = lgetv %dc;
-        symbol [ dc %tmp.10 17 12 14 ];
-        symbol [ getHeight %tmp.11 17 15 24 ];
-        %tmp.11 = getv function %tmp.10 :getHeight;
-        %tmp.12 = invoke %tmp.10 %tmp.11();
-        %tmp.13 = 2;
-        %tmp.14 = div %tmp.12 %tmp.13;
-        symbol [ Graphics %tmp.15 18 12 20 ];
-        %tmp.15 = getm $.Toybox.Graphics;
-        symbol [ FONT_LARGE %tmp.16 18 21 31 ];
-        %tmp.16 = getv %tmp.15 :FONT_LARGE;
-        %tmp.17 = "Режим: ";
-        symbol [ mode %tmp.19 19 24 28 ];
-        %tmp.19 = getv ? :mode;
-        %tmp.20 = add %tmp.17 %tmp.19;
-        symbol [ Graphics %tmp.21 20 12 20 ];
-        %tmp.21 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.22 20 21 40 ];
-        %tmp.22 = getv %tmp.21 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.3 %tmp.4(%tmp.9, %tmp.14, %tmp.16, %tmp.20, %tmp.22);
-C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_13_26_22_4_stop:
+        symbol [ dc %tmp.1 49 8 10 ];
+        symbol [ setColor %tmp.2 49 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 49 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 49 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ Graphics %tmp.5 49 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 49 51 62 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 50 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 50 8 10 ];
+        symbol [ clear %tmp.8 50 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 51 8 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 51 8 10 ];
+        symbol [ setColor %tmp.10 51 11 19 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Graphics %tmp.11 51 20 28 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.12 51 29 40 ];
+        %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+        symbol [ Graphics %tmp.13 51 42 50 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.14 51 51 68 ];
+        %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 54 8 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 54 8 10 ];
+        symbol [ drawText %tmp.16 54 11 19 ];
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 55 12 14 ];
+        symbol [ getWidth %tmp.18 55 15 23 ];
+        %tmp.18 = getv function %tmp.17 :getWidth;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.22 = lgetv %dc;
+        symbol [ dc %tmp.22 56 12 14 ];
+        symbol [ getHeight %tmp.23 56 15 24 ];
+        %tmp.23 = getv function %tmp.22 :getHeight;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = 2;
+        %tmp.26 = div %tmp.24 %tmp.25;
+        symbol [ Graphics %tmp.27 57 12 20 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.28 57 21 32 ];
+        %tmp.28 = getv %tmp.27 :FONT_MEDIUM;
+        symbol [ statusText %tmp.30 58 12 22 ];
+        %tmp.30 = getv ? :statusText;
+        symbol [ Graphics %tmp.31 59 12 20 ];
+        %tmp.31 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.32 59 21 40 ];
+        %tmp.32 = getv %tmp.31 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.15 %tmp.16(%tmp.21, %tmp.26, %tmp.28, %tmp.30, %tmp.32);
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc" 63 8 ]
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 63 8 10 ];
+        symbol [ drawText %tmp.34 63 11 19 ];
+        %tmp.34 = getv function %tmp.33 :drawText;
+        %tmp.35 = lgetv %dc;
+        symbol [ dc %tmp.35 64 12 14 ];
+        symbol [ getWidth %tmp.36 64 15 23 ];
+        %tmp.36 = getv function %tmp.35 :getWidth;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        %tmp.38 = 2;
+        %tmp.39 = div %tmp.37 %tmp.38;
+        %tmp.40 = lgetv %dc;
+        symbol [ dc %tmp.40 65 13 15 ];
+        symbol [ getHeight %tmp.41 65 16 25 ];
+        %tmp.41 = getv function %tmp.40 :getHeight;
+        %tmp.42 = invoke %tmp.40 %tmp.41();
+        %tmp.43 = 2;
+        %tmp.44 = div %tmp.42 %tmp.43;
+        %tmp.45 = 40;
+        %tmp.46 = add %tmp.44 %tmp.45;
+        symbol [ Graphics %tmp.47 66 12 20 ];
+        %tmp.47 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.48 66 21 30 ];
+        %tmp.48 = getv %tmp.47 :FONT_TINY;
+        %tmp.49 = "Секунды: ";
+        symbol [ counter %tmp.51 67 26 33 ];
+        %tmp.51 = getv ? :counter;
+        %tmp.52 = add %tmp.49 %tmp.51;
+        symbol [ Graphics %tmp.53 68 12 20 ];
+        %tmp.53 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.54 68 21 40 ];
+        %tmp.54 = getv %tmp.53 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.33 %tmp.34(%tmp.39, %tmp.46, %tmp.48, %tmp.52, %tmp.54);
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_BreathingView_mc_48_26_70_4_stop:
     }
 }
 [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreathingView.mc"; @line = 1; ]
