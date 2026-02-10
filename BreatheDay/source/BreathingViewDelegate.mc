@@ -23,19 +23,21 @@ class BreathingViewDelegate extends WatchUi.BehaviorDelegate {
     }
 
     // Вынесли общую логику перехода в отдельную функцию
-    function exitToSummary() {
-        var durationMs = System.getTimer() - _view._startTime;
-        var durationSec = durationMs / 1000;
+  function exitToSummary() {
+    // Останавливаем и сохраняем активность в FIT-файл
+    _view.stopAndSaveSession();
 
-        var cyclesCompleted = _view._cycles;
-        var startHR = _view._startHR;
-        var endHR = _view._currentHR;
+    var durationMs = System.getTimer() - _view._startTime;
+    var durationSec = durationMs / 1000;
 
-        // Переходим на экран итогов
-        WatchUi.switchToView(
-            new SummaryView(durationSec, cyclesCompleted, startHR, endHR), 
-            new SummaryDelegate(), 
-            WatchUi.SLIDE_DOWN
-        );
-    }
+    var cyclesCompleted = _view._cycles;
+    var startHR = _view._startHR;
+    var endHR = _view._currentHR;
+
+    WatchUi.switchToView(
+        new SummaryView(durationSec, cyclesCompleted, startHR, endHR), 
+        new SummaryDelegate(), 
+        WatchUi.SLIDE_DOWN
+    );
+}
 }
