@@ -1,0 +1,15 @@
+[ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreatheingViewDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreatheingViewDelegate.mc"; @line = 3; @symbol_classdef = [BreathingViewDelegate,3,6,27]; @symbol_extends<0> = [WatchUi,3,36,43]; @symbol_extends<1> = [ViewInputDelegate,3,44,61]; ]
+class BreathingViewDelegate extends WatchUi.ViewInputDelegate {
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreatheingViewDelegate.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreatheingViewDelegate.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+}
+[ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\BreatheingViewDelegate.mc"; @line = 1; ]
+<init> {
+}

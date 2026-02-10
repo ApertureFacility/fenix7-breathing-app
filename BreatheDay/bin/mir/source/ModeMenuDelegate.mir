@@ -1,0 +1,60 @@
+[ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc"; @line = 4; @symbol_classdef = [ModeMenuDelegate,4,6,22]; @symbol_extends<0> = [WatchUi,4,31,38]; @symbol_extends<1> = [Menu2InputDelegate,4,39,57]; ]
+class ModeMenuDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuDelegate_mc_6_26_8_4_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc" 7 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 7 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 7 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuDelegate_mc_6_26_8_4_stop:
+    }
+    [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc"; @line = 11; @symbol_functiondef = [onSelect,11,13,21]; @symbol_param<0> = [item,11,22,26]; ]
+    function onSelect(item) {
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuDelegate_mc_11_28_19_4_start:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc" 12 8 ]
+        [ "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuDelegate_mc_11_28_19_4_start" "C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuDelegate_mc_11_28_19_4_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 12 12 14 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 12 17 21 ];
+        symbol [ getId %tmp.2 12 22 27 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %id.1 %tmp.3;
+        symbol [ id %id.1 12 12 14 ];
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc" 14 8 ]
+        symbol [ WatchUi %tmp.4 14 8 15 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.5 14 16 24 ];
+        %tmp.5 = getv function %tmp.4 :pushView;
+        symbol [ BreathingView %tmp.9 15 16 29 ];
+        %tmp.9 = getv ? :BreathingView;
+        %tmp.10 = lgetv %id.1;
+        symbol [ id %tmp.10 15 30 32 ];
+        %tmp.6 = newc %tmp.9 (%tmp.10);
+        symbol [ BreathingViewDelegate %tmp.14 16 16 37 ];
+        %tmp.14 = getv ? :BreathingViewDelegate;
+        %tmp.11 = newc %tmp.14 ();
+        symbol [ WatchUi %tmp.15 17 12 19 ];
+        %tmp.15 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.16 17 20 30 ];
+        %tmp.16 = getv %tmp.15 :SLIDE_LEFT;
+        invoke %tmp.4 %tmp.5(%tmp.6, %tmp.11, %tmp.16);
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuDelegate_mc_11_28_19_4_stop:
+    }
+}
+[ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuDelegate.mc"; @line = 1; ]
+<init> {
+}
