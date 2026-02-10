@@ -15,7 +15,7 @@ class BreathingView extends WatchUi.View {
     var _startHR = 0;
     var _currentHR = 0;
     var _session; // Переменная для записи сессии
-
+    var _stressField;
     // Приватные переменные логики
     private var _mode;
     private var _timer;
@@ -33,7 +33,8 @@ class BreathingView extends WatchUi.View {
         View.initialize();
         _mode = modeId;
         _startTime = System.getTimer();
-        
+        // Создаем кастомное поле "Уровень спокойствия" (0-100)
+   
         // Получаем начальный пульс
         _startHR = getHeartRate();
 
@@ -51,7 +52,15 @@ _session = ActivityRecording.createSession({
 if (_session != null) {
     _session.start();
 }
-
+if (_session != null) {
+            _stressField = _session.createField(
+                "calmness_score", 
+                0, 
+                FitContributor.DATA_TYPE_UINT8, 
+                { :mesgType => FitContributor.MESG_TYPE_RECORD, :units => "%" }
+            );
+            _session.start();
+        }
         // Настройка таймингов
         if (_mode == :box) {
             _inhale = 4; _hold = 4; _exhale = 4;
@@ -99,7 +108,13 @@ if (_session != null) {
     function onTimerTick() as Void {
         _tickCount++;
         _currentHR = getHeartRate();
-
+// ОБЩАЯ АНАЛИТИКА (работает для всех режимов)
+        if (_session != null && _session.isRecording() && _currentHR > 0 && _stressField != null) {
+            var calmness = 100 - (_currentHR - 50); 
+            if (calmness > 100) { calmness = 100; }
+            if (calmness < 0) { calmness = 0; }
+            _stressField.setData(calmness);
+        }
         if (_mode == :free) {
             _statusText = "Свободный темп";
             _circleRadiusPercent = 0.0;
