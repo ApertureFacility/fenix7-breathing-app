@@ -38,7 +38,11 @@ class BreathingView extends WatchUi.View {
         if (_mode == :box) {
             _inhale = 4; _hold = 4; _exhale = 4;
             _cycleTotal = 16; // Вдох(4)-Задержка(4)-Выдох(4)-Задержка(4)
-        } else if (_mode == :fourSevenEight) {
+        }  else if (_mode == :free) {
+    _inhale = 0; _hold = 0; _exhale = 0;
+    _cycleTotal = 1; // Цикл не важен, так как анимации не будет
+        }
+        else if (_mode == :fourSevenEight) {
             _inhale = 4; _hold = 7; _exhale = 8;
             _cycleTotal = 19;
         } else {
@@ -66,23 +70,24 @@ class BreathingView extends WatchUi.View {
         }
         return 0;
     }
+function onTimerTick() as Void {
+    _tickCount++;
+    _currentHR = getHeartRate();
 
-    function onTimerTick() as Void {
-        _tickCount++;
-        
+    if (_mode == :free) {
+        _statusText = "Свободный темп";
+        _circleRadiusPercent = 0.0; // Обнуляем процент, чтобы старый код не рисовал большой круг
+    } else {
+        // ЛОГИКА ФАЗ (выполняется только если НЕ :free)
         var totalTicks = _cycleTotal * 10;
-        var currentTickInCycle = _tickCount % totalTicks;
-        var second = currentTickInCycle / 10.0;
-
-        // Обновляем текущий пульс и счетчик циклов
-        _currentHR = getHeartRate();
         var currentFullCycles = (_tickCount / totalTicks).toNumber();
         if (currentFullCycles > _lastCycleCount) {
             _cycles = currentFullCycles;
             _lastCycleCount = currentFullCycles;
         }
+        var currentTickInCycle = _tickCount % totalTicks;
+        var second = currentTickInCycle / 10.0;
 
-        // ЛОГИКА ФАЗ И АНИМАЦИИ
         if (second < _inhale) {
             _statusText = "Вдох";
             _circleRadiusPercent = second / _inhale;
@@ -96,17 +101,14 @@ class BreathingView extends WatchUi.View {
             _statusText = "Выдох";
             var exhaleTime = second - (_inhale + _hold);
             _circleRadiusPercent = 1.0 - (exhaleTime / _exhale);
-            // Вибрация в начале выдоха
             if (currentTickInCycle == ((_inhale + _hold) * 10).toLong()) { triggerVibe(); }
-        } 
-        else {
+        } else {
             _statusText = "Задержка";
             _circleRadiusPercent = 0.0;
         }
-
-        WatchUi.requestUpdate();
     }
-
+    WatchUi.requestUpdate();
+}
     function triggerVibe() as Void {
         if (Attention has :vibrate) {
             try {
@@ -118,24 +120,40 @@ class BreathingView extends WatchUi.View {
         }
     }
 
-    function onUpdate(dc as Dc) as Void {
-        var w = dc.getWidth();
-        var h = dc.getHeight();
+function onUpdate(dc as Dc) as Void {
+    var w = dc.getWidth();
+    var h = dc.getHeight();
+    dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+    dc.clear();
+
+    if (_mode == :free) {
+        // МИНИМАЛИСТИЧНЫЙ ДИЗАЙН ДЛЯ "СВОБОДНОГО ТЕМПА"
+        dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
         
-        // Фон
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
-        dc.clear();
+        // Тонкое кольцо по краю (не пульсирует)
+        dc.setPenWidth(2);
+        dc.drawCircle(w / 2, h / 2, (w < h ? w : h) / 2.2);
 
-        // Выбор цвета круга
-        if (_statusText.equals("Вдох")) {
-            dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-        } else if (_statusText.equals("Выдох")) {
+        // Время сессии крупно в центре
+        var totalSec = _tickCount / 10;
+        var timeStr = (totalSec / 60) + ":" + (totalSec % 60).format("%02d");
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(w / 2, h / 2 - 20, Graphics.FONT_LARGE, timeStr, Graphics.TEXT_JUSTIFY_CENTER);
+
+        // Статус и пульс
+        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(w / 2, h / 2 + 30, Graphics.FONT_XTINY, "СВОБОДНЫЙ ТЕМП", Graphics.TEXT_JUSTIFY_CENTER);
+        
+        if (_currentHR > 0) {
             dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-        } else {
-            dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(w / 2, h - 60, Graphics.FONT_SMALL, "♥ " + _currentHR, Graphics.TEXT_JUSTIFY_CENTER);
         }
+    } else {
+        // КЛАССИЧЕСКИЙ ДИЗАЙН С АНИМАЦИЕЙ
+        if (_statusText.equals("Вдох")) { dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT); }
+        else if (_statusText.equals("Выдох")) { dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT); }
+        else { dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT); }
 
-        // Отрисовка пульсирующего круга
         var maxRadius = (w < h ? w : h) / 2.5;
         var minRadius = 25;
         var currentRadius = minRadius + (maxRadius - minRadius) * _circleRadiusPercent;
@@ -143,14 +161,12 @@ class BreathingView extends WatchUi.View {
         dc.setPenWidth(12);
         dc.drawCircle(w / 2, h / 2, currentRadius);
 
-        // Текст фазы
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(w / 2, h / 2 - 15, Graphics.FONT_MEDIUM, _statusText, Graphics.TEXT_JUSTIFY_CENTER);
-
-        // Текущий пульс внизу (мини-индикатор)
+        
         if (_currentHR > 0) {
-            dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
+            dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
             dc.drawText(w / 2, h - 50, Graphics.FONT_XTINY, "HR: " + _currentHR, Graphics.TEXT_JUSTIFY_CENTER);
         }
     }
-}
+}}

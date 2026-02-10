@@ -9,5 +9,6 @@ class ModeMenuView extends WatchUi.Menu2 {
         addItem(new WatchUi.MenuItem("Равномерное", null, :even, null));
         addItem(new WatchUi.MenuItem("4-4-4", "Square breathing", :box, null));
         addItem(new WatchUi.MenuItem("4-7-8", "Relaxation", :fourSevenEight, null));
+        addItem(new WatchUi.MenuItem("Свой темп", "Без подсказок", :free, null));
     }
 }

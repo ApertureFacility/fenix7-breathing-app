@@ -11,7 +11,7 @@ class ModeMenuView extends WatchUi.Menu2 {
     }
     [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuView.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
     function initialize() as Void {
-C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuView_mc_5_26_12_4_start:
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuView_mc_5_26_13_4_start:
 [ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuView.mc" 6 8 ]
         symbol [ Menu2 %tmp.2 6 8 13 ];
         %tmp.2 = getv ? :Menu2;
@@ -69,7 +69,22 @@ C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMen
         %tmp.42 = null;
         %tmp.34 = newc %tmp.37 (%tmp.38, %tmp.39, %tmp.41, %tmp.42);
         invoke %tmp.32 %tmp.33(%tmp.34);
-C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuView_mc_5_26_12_4_stop:
+[ "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuView.mc" 12 8 ]
+        %tmp.43 = self;
+        symbol [ addItem %tmp.44 12 8 15 ];
+        %tmp.44 = getv function %tmp.43 :addItem;
+        symbol [ WatchUi %tmp.47 12 20 27 ];
+        %tmp.47 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.48 12 28 36 ];
+        %tmp.48 = getv function ? %tmp.47 :MenuItem;
+        %tmp.49 = "Свой темп";
+        %tmp.50 = "Без подсказок";
+        %tmp.52 = const :free;
+        symbol [ free %tmp.52 12 68 72 const ];
+        %tmp.53 = null;
+        %tmp.45 = newc %tmp.48 (%tmp.49, %tmp.50, %tmp.52, %tmp.53);
+        invoke %tmp.43 %tmp.44(%tmp.45);
+C__Users_Admin_Desktop_garmin_app_fenix7_breathing_app_BreatheDay_source_ModeMenuView_mc_5_26_13_4_stop:
     }
 }
 [ @file = "C:\Users\Admin\Desktop\garmin app\fenix7-breathing-app\BreatheDay\source\ModeMenuView.mc"; @line = 1; ]
